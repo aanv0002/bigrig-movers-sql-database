@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="55A9E582-04FB-6352-006C-C8023B663C01" name="PRODUCT">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:14:53 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prod_no" id="08CD6D7F-AD54-5018-5E51-12BEB379D206">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:15:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[product number]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_desc" id="21C1CD66-78AE-65F8-5F45-B1A7C83FA90B">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:15:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[product description]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_unit_price" id="47989E73-8916-EAD9-99EF-829B0386EF45">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:15:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[product unit price]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3FF310BE-1220-AA02-7F05-E9DFA45A659A" name="PRODUCT PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:15:22 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08CD6D7F-AD54-5018-5E51-12BEB379D206</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

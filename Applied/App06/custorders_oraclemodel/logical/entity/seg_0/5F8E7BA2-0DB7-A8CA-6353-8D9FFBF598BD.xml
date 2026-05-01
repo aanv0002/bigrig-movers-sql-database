@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F8E7BA2-0DB7-A8CA-6353-8D9FFBF598BD" name="ORDERLINE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:18:51 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="order_no" id="C06E72A1-BE45-225E-F6A2-A1C51639C86C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:24:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[order number]]></commentInRDBMS>
+<generatorID>66AF9868-F8D0-92DC-D952-20ACF415D132</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<referedAttribute>5D84B217-1D7A-7B26-9457-8DDF439AAD59</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prod_no" id="B3ECC53F-A782-97D7-F1D2-9D9FF0BC5FFB">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:28:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[product number]]></commentInRDBMS>
+<generatorID>C362B9D0-0943-4806-B627-8E33DFC5F9C4</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<referedAttribute>08CD6D7F-AD54-5018-5E51-12BEB379D206</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ol_qtyordered" id="D9432938-3856-4D4D-BDD3-2CAAB2EBAA20">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:30:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[quantity ordered]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ol_lineprice" id="C914D0F3-6180-7511-5A35-0AC4BC08F38A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:30:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[line price]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D78FDA17-A4A8-31F2-7143-2464FDBF2E64" name="ORDERLINE PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:24:59 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C06E72A1-BE45-225E-F6A2-A1C51639C86C</attributeRef>
+<attributeRef>B3ECC53F-A782-97D7-F1D2-9D9FF0BC5FFB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
