@@ -31,4 +31,15 @@
 <bounds x="658" y="277" width="232" height="135"/>
 </OView>
 </objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4BEA986C-0C3A-A8BE-90FE-E7ADD09793B5" otype="Relation" vid_source="2AAB564F-6537-2866-9757-6423D4838AFF" vid_target="48193C66-6ADD-77E7-6237-BF7B1BCBFC91">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="237" y="165"/>
+<point x="328" y="222"/>
+</points>
+</Connector>
+</connectors>
 </Diagram>

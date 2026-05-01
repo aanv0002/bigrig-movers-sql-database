@@ -42,6 +42,22 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="cust_no" id="288C12C1-EFE9-7C70-752A-01AC4D5E3D11">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-01 19:11:56 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer number]]></commentInRDBMS>
+<generatorID>4BEA986C-0C3A-A8BE-90FE-E7ADD09793B5</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<referedAttribute>1C843AEE-1199-BCFB-B847-F418499D3406</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="2EA5FEF7-982E-0B80-F792-E6E1647F9357" name="ORDERS PK">
