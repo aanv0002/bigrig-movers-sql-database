@@ -57,6 +57,22 @@
 <dataTypePrecision>7</dataTypePrecision>
 <ownDataTypeParameters>,7,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="pcat_id" id="A44C514E-5677-E6A0-7538-C2AE50F7F322">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 02:20:48 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category id]]></commentInRDBMS>
+<generatorID>27A43805-4DE5-7CC7-5137-E630861573CB</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<referedAttribute>38BD3E86-5E03-8F6D-D677-8A8B334B300D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="3FF310BE-1220-AA02-7F05-E9DFA45A659A" name="PRODUCT PK">
