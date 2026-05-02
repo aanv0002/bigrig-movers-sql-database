@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C62C0941-7501-B23A-57A2-C79CC533C5C4" name="PROD_CATEGORY">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>5ECA389F-F795-6145-B2C1-5A3B704E65AA</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="pcat_id" id="A57CB188-B88B-9475-BEC8-BBBAD32EC51D">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category id]]></commentInRDBMS>
+<generatorID>38BD3E86-5E03-8F6D-D677-8A8B334B300D</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pcat_name" id="D1CC98DE-2FAE-D689-6DFC-AB845E01BA28">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category name]]></commentInRDBMS>
+<generatorID>A45F7CD4-DD4D-2A5F-F363-139E163FB2B2</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A78D204-0259-B047-DE57-133BB9CCB18F" name="PROD_CATEGORY_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>0B949F80-1F17-9ADC-4F5A-C2ED694C6EBD</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A57CB188-B88B-9475-BEC8-BBBAD32EC51D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

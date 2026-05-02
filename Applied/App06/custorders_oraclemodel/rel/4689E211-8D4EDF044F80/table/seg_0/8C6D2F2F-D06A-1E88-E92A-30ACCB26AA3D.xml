@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8C6D2F2F-D06A-1E88-E92A-30ACCB26AA3D" name="PRODUCT">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>55A9E582-04FB-6352-006C-C8023B663C01</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prod_no" id="C241F5EF-26DE-C40D-A312-41A2E6BEC9E6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[product number]]></commentInRDBMS>
+<generatorID>08CD6D7F-AD54-5018-5E51-12BEB379D206</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prod_desc" id="FFBDC8DC-CD23-2B15-0726-787E0911249C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[product description]]></commentInRDBMS>
+<generatorID>21C1CD66-78AE-65F8-5F45-B1A7C83FA90B</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prod_unit_price" id="DCE7DEAE-F5E3-9479-C2EE-90BE6DA7A755">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[product unit price]]></commentInRDBMS>
+<generatorID>47989E73-8916-EAD9-99EF-829B0386EF45</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pcat_id" id="230011D6-2C00-F0E2-4B33-73A961080200">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[product category id]]></commentInRDBMS>
+<generatorID>A44C514E-5677-E6A0-7538-C2AE50F7F322</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0C409B06-7D18-C742-06D9-0D34D573B51E" referredColumn="A57CB188-B88B-9475-BEC8-BBBAD32EC51D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C6ED11B7-777C-3DAD-7DEC-F3785EBA19FD" name="PRODUCT_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>3FF310BE-1220-AA02-7F05-E9DFA45A659A</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C241F5EF-26DE-C40D-A312-41A2E6BEC9E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11ED62DA-DB60-60D5-2A03-BB499DD6B373" name="Relation_4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>27A43805-4DE5-7CC7-5137-E630861573CB</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="230011D6-2C00-F0E2-4B33-73A961080200"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8236ADFE-0C2E-2EBC-753F-5B90AA586EE3" containerWithKeyObject="AD114357-AF47-4080-DF39-A32A3F780972" localFKIndex="0760F6A8-0D67-7E89-3A43-C91FB3DCC2D4" name="em_emptraining_fk">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>9CDF5AA4-6BF1-5DD7-C75B-6E6E82422415</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<referredTableLongName>EMPLOYEE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DC156EEF-1B4D-DA8D-8371-2BB9B9D10297</referredTableID>
+<keyObject>D6C88316-7152-0E2C-DEDF-EAA721942E40</keyObject>
+<referredKeyID>D6C88316-7152-0E2C-DEDF-EAA721942E40</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>emp_no</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

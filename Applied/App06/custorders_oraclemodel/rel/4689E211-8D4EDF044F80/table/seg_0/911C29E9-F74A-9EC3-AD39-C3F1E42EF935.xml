@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="911C29E9-F74A-9EC3-AD39-C3F1E42EF935" name="CUSTOMER">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>33D396CA-E754-414B-8605-D174CEEC9E60</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cust_no" id="C9A96218-5207-48FD-7A7E-DFA51333C538">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer number]]></commentInRDBMS>
+<generatorID>1C843AEE-1199-BCFB-B847-F418499D3406</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_name" id="FFDBD687-416F-422E-9FF3-EFBA7C78C42F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer name]]></commentInRDBMS>
+<generatorID>7DC4DFD0-9954-2228-8602-04A69A6996CC</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_address" id="7A6D57CC-0DB6-F70A-F9D5-DFB44F205B4F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer address]]></commentInRDBMS>
+<generatorID>DD89E3FA-8C33-9334-E73F-70B4CD6A3F58</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_phone" id="42BF81E9-8EC2-4082-7274-0D670EB9E192">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[customer phone number]]></commentInRDBMS>
+<generatorID>B9AEEA92-2094-000B-0AC7-BE1D13F79406</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cust_level" id="BC28947F-A873-AC6A-16E7-995AB9C162BD">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[cutomer level, G - Gold, S - Silver, B - Bronze]]></commentInRDBMS>
+<generatorID>E04C599D-2A26-94E2-7AED-37FD6E53BD0F</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<constraintName>chk_custlevel</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Bronze"/>
+<valueDef value="G" description="Gold"/>
+<valueDef value="S" description="Silver"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC413C45-2F9F-BC6A-8F37-3FD9AD8E5697" name="CUSTOMER_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 08:07:21 UTC</createdTime>
+<generatorID>63FA3A6D-F635-1063-C348-B71C33D41178</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9A96218-5207-48FD-7A7E-DFA51333C538"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

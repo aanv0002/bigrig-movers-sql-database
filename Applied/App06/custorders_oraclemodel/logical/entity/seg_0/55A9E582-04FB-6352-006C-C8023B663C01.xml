@@ -54,8 +54,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 <Attribute name="pcat_id" id="A44C514E-5677-E6A0-7538-C2AE50F7F322">
 <createdBy>ASUS</createdBy>
@@ -70,8 +71,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

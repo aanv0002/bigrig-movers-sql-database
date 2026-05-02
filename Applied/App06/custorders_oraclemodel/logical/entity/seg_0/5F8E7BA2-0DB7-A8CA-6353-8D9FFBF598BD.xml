@@ -72,8 +72,9 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>7</dataTypePrecision>
-<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
