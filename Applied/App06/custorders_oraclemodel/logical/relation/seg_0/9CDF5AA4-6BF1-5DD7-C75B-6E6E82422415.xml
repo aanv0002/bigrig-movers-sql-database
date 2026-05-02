@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="em_emptraining_fk" directorySegmentName="seg_0" id="9CDF5AA4-6BF1-5DD7-C75B-6E6E82422415">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 02:37:09 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<sourcePk>399117C2-EE21-5F7F-A2C6-3EA95F48CCE0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>completes</nameOnSource>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F574825-B43D-374F-5FFE-13302C3B2242</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C35012F3-DCF9-51FF-B907-1CD08768F209</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

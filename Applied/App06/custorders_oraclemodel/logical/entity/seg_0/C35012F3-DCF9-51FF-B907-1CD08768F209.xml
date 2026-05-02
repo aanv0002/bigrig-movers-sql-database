@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C35012F3-DCF9-51FF-B907-1CD08768F209" name="EMPLOYEE TRAINING">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 02:28:59 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="et_no" id="9FC25795-671B-90EB-46A2-8FDEF353FAC7">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 02:29:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[Employee training number (surrogate pk)]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="et_datecompleted" id="1B99C475-627A-4ED4-8F78-1EC887C83216">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 02:32:35 UTC</createdTime>
+<commentInRDBMS><![CDATA[Date employee completed training]]></commentInRDBMS>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emp_no" id="9CEBE235-B6CD-2751-4C17-5D816EC0A731">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 07:31:17 UTC</createdTime>
+<commentInRDBMS><![CDATA[employee number]]></commentInRDBMS>
+<generatorID>9CDF5AA4-6BF1-5DD7-C75B-6E6E82422415</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<referedAttribute>B70FAAE7-B670-52A5-DC59-D674D137128C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="training_code" id="5C321331-9B03-68BA-7D6F-723899BE6545">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 07:32:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[training code]]></commentInRDBMS>
+<generatorID>15C50F6F-0D4C-6ACE-F296-E5FF13A9A995</generatorID>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<referedAttribute>28BA9F88-5E2C-E1C3-AF6A-13EE66AF582A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2EE3A7D3-DA5B-BFBF-5F22-B12EB1EA00D4" name="EMPLOYEE TRAINING PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 02:32:19 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9FC25795-671B-90EB-46A2-8FDEF353FAC7</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="C725DE95-7F32-EEA6-FFAD-A477CBE0A3D9" name="EMPLOYEE_TRAINING_NK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-02 07:33:41 UTC</createdTime>
+<ownerDesignName>custorders_oraclemodel</ownerDesignName>
+<engineerTo>
+<item key="4689E211-1924-6D40-5504-8D4EDF044F80" value="true"/>
+</engineerTo>
+<newElementsIDs>1B99C475-627A-4ED4-8F78-1EC887C83216,15C50F6F-0D4C-6ACE-F296-E5FF13A9A995,9CDF5AA4-6BF1-5DD7-C75B-6E6E82422415</newElementsIDs>
+<usedAttributes>
+<attributeRef>1B99C475-627A-4ED4-8F78-1EC887C83216</attributeRef>
+<attributeRef>5C321331-9B03-68BA-7D6F-723899BE6545</attributeRef>
+<attributeRef>9CEBE235-B6CD-2751-4C17-5D816EC0A731</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
