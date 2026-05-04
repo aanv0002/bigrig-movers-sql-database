@@ -88,16 +88,25 @@
 <Attribute name="auth_type" id="E1A134F8-078C-255C-15B6-585E21743F9F">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-04 14:51:18 UTC</createdTime>
-<commentInRDBMS><![CDATA[local authority type]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[local authority type, B - Borough, C - City, D - District Council, S - Shire, T - Town
+]]></commentInRDBMS>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
+<constraintName>chk_auth_type</constraintName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>10</dataTypeSize>
-<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="B" description="Borough"/>
+<valueDef value="C" description="City"/>
+<valueDef value="D" description="District Council"/>
+<valueDef value="S" description="Shire"/>
+<valueDef value="T" description="Town"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
