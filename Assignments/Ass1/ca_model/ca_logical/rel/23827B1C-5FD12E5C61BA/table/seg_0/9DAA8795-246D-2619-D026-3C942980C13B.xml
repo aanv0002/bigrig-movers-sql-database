@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DAA8795-246D-2619-D026-3C942980C13B" name="STREET">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<generatorID>535F1FA9-9661-A19C-BBFF-10EBC4732D74</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="str_id" id="E87BC244-106E-6C57-C943-4C26217F1896">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id number]]></commentInRDBMS>
+<generatorID>55E4B865-27AC-16BD-BED4-CBC64A1BB2F0</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="auth_name" id="19E6D43B-67C0-2D4F-2E09-7F6ECEDEB1FD">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[local authority name]]></commentInRDBMS>
+<generatorID>919F2470-387E-A4F9-6B78-D892E4ACB474</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CDE0E497-2083-8092-321C-DB16C7B49386" referredColumn="2B3652BE-3C0A-C7AD-C28B-3CFEBDA7376C"/>
+</associations>
+</Column>
+<Column name="str_name" id="8B89A9F6-2C1F-44BC-D64F-A1C260705F67">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[street name]]></commentInRDBMS>
+<generatorID>B5604B49-7172-F497-DFD3-3B7BF4F4069D</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_length" id="A4B9946D-9BA4-4807-CD3B-95A83A1AFF87">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[street length in meters]]></commentInRDBMS>
+<generatorID>7B905440-3031-BA3E-6F73-32B207EFD230</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<ownDataTypeParameters>,7,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_road_surface_type" id="785AC02E-1392-01DD-7397-2FA9308C1629">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[street road surface type, A - Asphalt, C - Concrete, U - Unsealed]]></commentInRDBMS>
+<generatorID>C8BED81D-FD0A-B3B1-2792-62B0A02D3D07</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<constraintName>chk_road_surface_type</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="A" description="Asphalt"/>
+<valueDef value="C" description="Concrete"/>
+<valueDef value="U" description="Unsealed"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F48CC08-261E-AD7E-FF01-5E082267B049" name="STREET_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<generatorID>91E4FC92-F5C3-FB9D-EF58-D36DAD2E3DED</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E87BC244-106E-6C57-C943-4C26217F1896"/>
+<colUsage columnID="19E6D43B-67C0-2D4F-2E09-7F6ECEDEB1FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4D6C0D3-ABA6-E6FA-30E2-88328994BDF3" name="authority_street">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<generatorID>322CF0B2-BB34-2C0B-C22A-1ABFEEF24DCA</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19E6D43B-67C0-2D4F-2E09-7F6ECEDEB1FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

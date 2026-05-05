@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF58F9D2-BD35-8088-A7D4-CB5BF1475B3F" containerWithKeyObject="9E67D4E6-D406-5B1D-588A-08D0F2E49353" localFKIndex="015AA2A9-47F7-1C23-6AF1-48E21EB26F80" name="waste_type_contract">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 16:12:38 UTC</createdTime>
+<generatorID>CAE73633-C692-CC1F-BA06-0256779B8DC8</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<referredTableLongName>WASTE_TYPE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9A04B3D7-D694-55E1-0DAB-3D9D135AE8FE</referredTableID>
+<keyObject>28A52D33-C15C-6B46-3D88-9894E0B7D833</keyObject>
+<referredKeyID>28A52D33-C15C-6B46-3D88-9894E0B7D833</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>wst_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
