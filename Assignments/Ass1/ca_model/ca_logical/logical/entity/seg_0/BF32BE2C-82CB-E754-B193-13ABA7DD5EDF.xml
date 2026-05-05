@@ -18,7 +18,7 @@
 <Attribute name="wst_id" id="24F65C3B-EB44-9253-484B-2277620F8ADC">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 13:57:11 UTC</createdTime>
-<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[waste type id, GW - green waste, LF - landfill, SD - standard recycle, GL - glass]]></commentInRDBMS>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
@@ -27,12 +27,18 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
+<listOfValues>
+<valueDef value="GL" description="Glass"/>
+<valueDef value="GW" description="Green Waste"/>
+<valueDef value="LF" description="Landfill"/>
+<valueDef value="SD" description="Standard Recycle"/>
+</listOfValues>
 <ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="wst_desc" id="FD52A6CF-33F8-CBB5-E2CB-2411CFB3972C">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 13:57:29 UTC</createdTime>
-<commentInRDBMS><![CDATA[waste type description]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[waste type description, green waste, landfill, standard recycle, glass]]></commentInRDBMS>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
@@ -41,6 +47,12 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>10</dataTypeSize>
+<listOfValues>
+<valueDef value="Glass" description=""/>
+<valueDef value="Green Waste" description=""/>
+<valueDef value="Landfill" description=""/>
+<valueDef value="Standard Recycle" description=""/>
+</listOfValues>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
@@ -49,8 +61,9 @@
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 13:57:21 UTC</createdTime>
 <ownerDesignName>ca_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

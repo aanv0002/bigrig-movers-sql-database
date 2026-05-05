@@ -34,7 +34,7 @@
 <Attribute name="wst_id" id="DD3E455D-E2A3-4470-9E54-3519F0751781">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 15:22:58 UTC</createdTime>
-<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[waste type id, GW - green waste, LF - landfill, SD - standard recycle, GL - glass]]></commentInRDBMS>
 <generatorID>E407EAEC-E06B-DF50-C3BF-E5FC8BD775D4</generatorID>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
@@ -67,8 +67,9 @@
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 14:45:49 UTC</createdTime>
 <ownerDesignName>ca_logical</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
