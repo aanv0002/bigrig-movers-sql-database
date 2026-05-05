@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="814A9CD2-8EE9-1240-0721-03B9EBCBB6D1" name="COLLECTION RUN">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:35:44 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ctn_date" id="13FF0972-3D14-A9E3-8362-ACE2F384E96A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:36:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection date]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ctn_weight" id="412DF46D-7395-A8CD-E370-F5BB21408764">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:36:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection wieght]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ctn_ow_status" id="488BC1E1-7C69-8651-A3B0-491EF22C5A2F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:36:57 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection overweight status, Y - overweight, N - not overweight]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="not overweight"/>
+<valueDef value="Y" description="overweight"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C371B5DD-0D83-DB70-F695-DF0C8547F0CD" name="COLLECTION RUN PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:36:31 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13FF0972-3D14-A9E3-8362-ACE2F384E96A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

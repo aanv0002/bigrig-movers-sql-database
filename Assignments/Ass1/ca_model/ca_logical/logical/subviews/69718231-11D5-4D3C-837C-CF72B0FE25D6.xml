@@ -16,6 +16,10 @@
 <showAllDetails>false</showAllDetails>
 <showElements>true</showElements>
 <objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="050C5B58-F7D6-8B91-EC8E-E4E002F9C836" otype="Entity" vid="1B11524E-B1F8-5F91-B760-012024B22527">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="859" y="208" width="170" height="110"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0A7C1672-1366-5897-4141-AADCA0C99491" otype="Entity" vid="83D46B68-29B8-027C-4606-8A4C052A7CCF">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="661" y="560" width="170" height="110"/>
@@ -26,7 +30,7 @@
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7630E6D0-49A6-67AC-F9F1-ED8B33994A65" otype="Entity" vid="E1B99907-42A9-EEE8-9CF4-3382B8E24F10">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<bounds x="311" y="407" width="182" height="197"/>
+<bounds x="311" y="407" width="182" height="129"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7AA9ECA8-183F-B3C2-E7BB-8BAFAE4B9C93" otype="Entity" vid="B275CF67-9488-A97F-BCA0-BD9181D92A46">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
@@ -35,6 +39,10 @@
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7C0C0D71-5A2E-EEDD-458A-A501F5B03C82" otype="Entity" vid="BB533032-7D45-F37E-3BC4-F5DD9021E90A">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="14" y="215" width="184" height="145"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="814A9CD2-8EE9-1240-0721-03B9EBCBB6D1" otype="Entity" vid="49BF55F9-04EA-C01E-27DF-01279312379C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="315" y="569" width="170" height="110"/>
 </OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="BA9135A0-6A93-EA8C-E24A-E8630272FC18" otype="Entity" vid="F5B257BE-64EA-1679-D71B-8E8B3241825C">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
