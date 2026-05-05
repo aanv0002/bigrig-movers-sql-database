@@ -1,6 +1,6 @@
 -- Capture run of script in file called custorders_schema_output.txt
 set echo on
-SPOOL custorders_schema_output.txt
+SPOOL ca_schema_output.txt
 
 --student id: 35737476
 --student name: Amra Anver
