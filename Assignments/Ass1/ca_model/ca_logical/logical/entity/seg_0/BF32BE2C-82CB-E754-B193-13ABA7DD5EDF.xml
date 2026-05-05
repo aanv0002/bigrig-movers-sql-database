@@ -43,22 +43,6 @@
 <dataTypeSize>10</dataTypeSize>
 <ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="bin_id" id="FD1EE6AC-DD1A-DE80-1910-80CAC2AB4A73">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 14:08:50 UTC</createdTime>
-<commentInRDBMS><![CDATA[bin rfid tag number]]></commentInRDBMS>
-<generatorID>993A1390-A947-4372-D67B-3E75F6A4FC3C</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<referedAttribute>131FDDEB-EFCB-D22A-73F1-0B7B79E46CDA</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>29</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F775B6E7-E59A-CA89-C182-73A87E888B66" name="WASTE TYPE PK">

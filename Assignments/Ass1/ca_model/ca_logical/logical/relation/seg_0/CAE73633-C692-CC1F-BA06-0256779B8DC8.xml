@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="5468ED41-EA79-A649-74C7-DF04CED21268">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="waste_type_contract" directorySegmentName="seg_0" id="CAE73633-C692-CC1F-BA06-0256779B8DC8">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 14:05:19 UTC</createdTime>
+<createdTime>2026-05-05 15:34:18 UTC</createdTime>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
 <sourcePk>F775B6E7-E59A-CA89-C182-73A87E888B66</sourcePk>
-<identifying>true</identifying>
+<identifying>false</identifying>
+<nameOnSource>is used in</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>BF32BE2C-82CB-E754-B193-13ABA7DD5EDF</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>BA9135A0-6A93-EA8C-E24A-E8630272FC18</targetEntity>
+<targetEntity>F640BE40-7456-681E-D54C-B9FBF5210EDB</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

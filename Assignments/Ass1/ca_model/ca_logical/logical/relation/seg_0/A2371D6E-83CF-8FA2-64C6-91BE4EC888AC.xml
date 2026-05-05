@@ -8,6 +8,7 @@
 </engineerTo>
 <sourcePk>91E4FC92-F5C3-FB9D-EF58-D36DAD2E3DED</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>locates</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

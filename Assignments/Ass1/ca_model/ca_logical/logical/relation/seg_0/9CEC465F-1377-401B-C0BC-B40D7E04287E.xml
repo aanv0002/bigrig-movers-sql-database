@@ -1,19 +1,20 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_21" directorySegmentName="seg_0" id="01842143-3403-4294-C602-4B577F11EA6D">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="contract_bin" directorySegmentName="seg_0" id="9CEC465F-1377-401B-C0BC-B40D7E04287E">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 14:46:54 UTC</createdTime>
+<createdTime>2026-05-05 15:27:14 UTC</createdTime>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
-<sourcePk>F3C222AA-64F8-33FC-509A-CCFC62378A66</sourcePk>
+<sourcePk>94E30F1A-C14B-15EB-1A73-9C55A56E2E91</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>supplies</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>BA9135A0-6A93-EA8C-E24A-E8630272FC18</sourceEntity>
+<sourceEntity>F640BE40-7456-681E-D54C-B9FBF5210EDB</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>814A9CD2-8EE9-1240-0721-03B9EBCBB6D1</targetEntity>
+<targetEntity>7630E6D0-49A6-67AC-F9F1-ED8B33994A65</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

@@ -89,22 +89,6 @@
 </listOfValues>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="wst_id" id="D6DE4A20-1F52-1829-AB89-F8C5C19E7A4D">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 14:08:31 UTC</createdTime>
-<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
-<generatorID>993A1390-A947-4372-D67B-3E75F6A4FC3C</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<referedAttribute>24F65C3B-EB44-9253-484B-2277620F8ADC</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>2</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="prop_id" id="AA2F265B-0D97-2EF8-353B-2893FAC8CBB4">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 14:30:11 UTC</createdTime>
@@ -120,6 +104,38 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_no" id="4BD3B16B-BC23-3DB9-0D9E-262F0391FE97">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:27:14 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>9CEC465F-1377-401B-C0BC-B40D7E04287E</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>C49CBD62-C111-1888-FFB0-81B64BB1BDD0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wst_id" id="1721EC0C-A3CA-C1D4-8109-A7E943F6AF30">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:39:24 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<generatorID>FDD377C6-FABF-89E4-3F01-A04183475D01</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>24F65C3B-EB44-9253-484B-2277620F8ADC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

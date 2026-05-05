@@ -15,32 +15,32 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ct_no" id="95BE2E99-889F-3A0E-5692-83B84B137B58">
+<Attribute name="ct_no" id="B0B2BD5F-45EC-08E7-AB72-3F75A72830FE">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 14:45:49 UTC</createdTime>
+<createdTime>2026-05-05 15:23:08 UTC</createdTime>
 <commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
-<generatorID>BDB1CD50-2AFD-512C-BF7D-45E2C6F1E11B</generatorID>
+<generatorID>C30D284A-605C-3480-8A29-6986B9F6CF17</generatorID>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
-<referedAttribute>097B9F19-9091-AB98-8654-00D480BA6D71</referedAttribute>
+<referedAttribute>C49CBD62-C111-1888-FFB0-81B64BB1BDD0</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="wst_id" id="5BB9A1D6-2BAB-F2E9-22C2-DEA04EA652D0">
+<Attribute name="wst_id" id="DD3E455D-E2A3-4470-9E54-3519F0751781">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 14:45:49 UTC</createdTime>
+<createdTime>2026-05-05 15:22:58 UTC</createdTime>
 <commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
-<generatorID>BDB1CD50-2AFD-512C-BF7D-45E2C6F1E11B</generatorID>
+<generatorID>E407EAEC-E06B-DF50-C3BF-E5FC8BD775D4</generatorID>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
-<referedAttribute>FD98CB53-6918-63AC-F4EE-6234D03DF409</referedAttribute>
+<referedAttribute>24F65C3B-EB44-9253-484B-2277620F8ADC</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
@@ -72,8 +72,8 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>95BE2E99-889F-3A0E-5692-83B84B137B58</attributeRef>
-<attributeRef>5BB9A1D6-2BAB-F2E9-22C2-DEA04EA652D0</attributeRef>
+<attributeRef>DD3E455D-E2A3-4470-9E54-3519F0751781</attributeRef>
+<attributeRef>B0B2BD5F-45EC-08E7-AB72-3F75A72830FE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
