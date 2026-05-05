@@ -1,0 +1,180 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="07F2B92D-A2BD-2EAC-524B-1932A67BC874" name="BIN">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>7630E6D0-49A6-67AC-F9F1-ED8B33994A65</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bin_id" id="DD71A5EB-A168-D150-2203-91BA66AD6348">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin rfid tag number]]></commentInRDBMS>
+<generatorID>131FDDEB-EFCB-D22A-73F1-0B7B79E46CDA</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>29</dataTypeSize>
+<ownDataTypeParameters>29,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_size" id="3C04FC4F-A3D9-9B96-4848-0B93F04A9508">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin size in litres]]></commentInRDBMS>
+<generatorID>E75C494E-72D1-952B-1E39-228D8AA18276</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_supply_cost_std" id="7A57E138-0C34-A5A5-275A-68BC977AABCF">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin standard supply cost]]></commentInRDBMS>
+<generatorID>7895081B-3A7A-E268-9CCF-8B99F2AA4A32</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_supply_date" id="2D13F887-2FA6-4399-223D-46A20259CB95">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>20B3B7B1-180D-C4E2-263F-8BC0B7FE8E51</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_status" id="9D045C37-984B-BB0F-B602-8DE05F1BA9C6">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Current status of the bin, Damaged by owner, Bin Failure (fair use, e.g. old age), Damaged during pickup of waste, Stolen]]></commentInRDBMS>
+<generatorID>4B402E51-C10C-CEC3-00AC-5D9BB0BB3AA7</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<listOfValues>
+<valueDef value="Bin Failure" description="Fair use/ old age"/>
+<valueDef value="Damaged by owner" description="Damaged by owner"/>
+<valueDef value="Damaged during waste pickup" description="Damage during waste pickup"/>
+<valueDef value="Stolen" description="Stolen"/>
+</listOfValues>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prop_id" id="13C785E4-6668-2B4E-0AA7-EAC032109D3C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[property id (surrogate pk)]]></commentInRDBMS>
+<generatorID>AA2F265B-0D97-2EF8-353B-2893FAC8CBB4</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDD8929B-D494-45CF-5DB1-14E9A9096A6D" referredColumn="B1D7757C-2C0F-CB5F-78CE-BE3047340B7C"/>
+</associations>
+</Column>
+<Column name="ct_no" id="07EEA45E-E977-DD7D-DAE5-6BA1B8DE8242">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>4BD3B16B-BC23-3DB9-0D9E-262F0391FE97</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6C56656-B0A0-D748-BF68-3FFC011B2F7E" referredColumn="F2CAE502-AD51-5497-B18D-EBE426425CD4"/>
+</associations>
+</Column>
+<Column name="wst_id" id="0DF9564D-8375-319C-C147-CCA8AB1A33CD">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<generatorID>1721EC0C-A3CA-C1D4-8109-A7E943F6AF30</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9DA2DB25-62B4-8E01-00EF-F94D7F538522" referredColumn="FE735FD1-1FAB-3B23-389A-7552B5B3E7AC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA7FCB3E-B258-3949-3BBC-4B561C200257" name="BIN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>B6C62CBA-E665-CDE6-5918-0EE3DBB1B76F</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD71A5EB-A168-D150-2203-91BA66AD6348"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1B9E38FC-7B9C-E532-E5C3-101246AEF5B1" name="bin_waste_type">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>FDD377C6-FABF-89E4-3F01-A04183475D01</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DF9564D-8375-319C-C147-CCA8AB1A33CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE0C67BF-DB9D-17CC-0791-C642A05BC1AF" name="contract_bin">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>9CEC465F-1377-401B-C0BC-B40D7E04287E</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07EEA45E-E977-DD7D-DAE5-6BA1B8DE8242"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97DC348F-3154-8597-0DF5-707BB35666F7" name="Relation_9">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13C785E4-6668-2B4E-0AA7-EAC032109D3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

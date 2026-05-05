@@ -1,0 +1,207 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63C75C6B-F3CA-3369-A5AA-839B074EC7F1" name="COLLECTION_RUN">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>814A9CD2-8EE9-1240-0721-03B9EBCBB6D1</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ctn_run_id" id="F324F3A7-1F15-DAD2-33C5-5F9F203D1DD0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection run id (surrogate pk)]]></commentInRDBMS>
+<generatorID>AE5C674B-30E8-A5F3-131C-210DDEED6BA0</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ct_no" id="4045E610-A0AA-739A-0664-A62773B2FA35">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>B4AB51EB-E7C6-7824-E668-7C009F17FAF8</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB8AE53D-BEE3-EFE6-304F-FCCA79B94723" referredColumn="F2CAE502-AD51-5497-B18D-EBE426425CD4"/>
+</associations>
+</Column>
+<Column name="wst_id" id="23D63567-EA3F-B80D-E8C5-38769283CC59">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<generatorID>AF2E0C5A-EB4D-E424-F23B-8C914EA52F65</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="08EA91E7-BC3E-3A9F-84D9-952E95D0F4E8" referredColumn="FE735FD1-1FAB-3B23-389A-7552B5B3E7AC"/>
+</associations>
+</Column>
+<Column name="truck_vin" id="8A483501-EA1C-954C-88B2-EAB5AE6D724F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[truck vehicle identification number]]></commentInRDBMS>
+<generatorID>CC5F2B4B-83D9-5296-209D-0587BD99796A</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D3D28278-6E81-37AE-9A4A-809AEA58A830" referredColumn="D3B500C9-9AA7-B08E-F87D-5716705F3957"/>
+</associations>
+</Column>
+<Column name="ctn_date" id="6AD6C4BA-A290-0F18-13F8-B691A0CD6CD0">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection date]]></commentInRDBMS>
+<generatorID>13FF0972-3D14-A9E3-8362-ACE2F384E96A</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bin_id" id="4F6201B3-29E1-37B7-BB7F-7DFCC46AA561">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin rfid tag number]]></commentInRDBMS>
+<generatorID>CADD5DAB-F529-235C-994F-A896206CB0EB</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>29</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E82CEC93-EB59-D297-93F7-65678ADBBAEB" referredColumn="DD71A5EB-A168-D150-2203-91BA66AD6348"/>
+</associations>
+</Column>
+<Column name="ctn_weight" id="C131EE38-AD61-D03C-CE3B-9AD3B6EF858A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection wieght]]></commentInRDBMS>
+<generatorID>412DF46D-7395-A8CD-E370-F5BB21408764</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ctn_ow_status" id="1ECF5293-718A-3229-1986-6C1D902F8333">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection overweight status, Y - overweight, N - not overweight]]></commentInRDBMS>
+<generatorID>488BC1E1-7C69-8651-A3B0-491EF22C5A2F</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<listOfValues>
+<valueDef value="N" description="not overweight"/>
+<valueDef value="Y" description="overweight"/>
+</listOfValues>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B7FBFA74-CD57-8723-1ABC-550B5CF4C53B" name="COLLECTION_RUN_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>C371B5DD-0D83-DB70-F695-DF0C8547F0CD</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F324F3A7-1F15-DAD2-33C5-5F9F203D1DD0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="28ADC65E-7D3D-87E3-444E-0E04F20E4254" name="COLLECTION_RUN_NK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>8E85F911-F15B-5394-D964-DF95C4A54876</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A483501-EA1C-954C-88B2-EAB5AE6D724F"/>
+<colUsage columnID="6AD6C4BA-A290-0F18-13F8-B691A0CD6CD0"/>
+<colUsage columnID="23D63567-EA3F-B80D-E8C5-38769283CC59"/>
+<colUsage columnID="4045E610-A0AA-739A-0664-A62773B2FA35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E7E8C80-9D49-6BD6-5CE0-9457E387F648" name="bin_collection_run">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>215C3E95-44DD-E02B-BC54-0B68F0F4B447</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4F6201B3-29E1-37B7-BB7F-7DFCC46AA561"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFA00A8C-9509-1F71-39BF-A800F30FAE7E" name="collection_run_waste_type">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>E0A14462-8ACA-8583-7F75-ECCC1A1664FB</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="23D63567-EA3F-B80D-E8C5-38769283CC59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="901F7F9A-205B-1A6D-0398-013043F84DB2" name="contract_collection_run">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>89992972-A6BC-73CF-3424-592DCCEAB8B1</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4045E610-A0AA-739A-0664-A62773B2FA35"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B1D42E8-3BBB-71F9-10B2-7C2AD5D88129" name="truck_collection_run">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>01E5B10D-C8A8-1806-F871-D48E501A5C25</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A483501-EA1C-954C-88B2-EAB5AE6D724F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

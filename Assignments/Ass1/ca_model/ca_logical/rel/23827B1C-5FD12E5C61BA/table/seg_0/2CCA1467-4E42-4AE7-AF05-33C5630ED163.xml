@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CCA1467-4E42-4AE7-AF05-33C5630ED163" name="COLLECTION">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>050C5B58-F7D6-8B91-EC8E-E4E002F9C836</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ct_no" id="641BD2BC-FDA3-4901-D0EF-615A895F9674">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<generatorID>B0B2BD5F-45EC-08E7-AB72-3F75A72830FE</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C89A1E9D-E26A-6764-42DA-C3CFA423D5AC" referredColumn="F2CAE502-AD51-5497-B18D-EBE426425CD4"/>
+</associations>
+</Column>
+<Column name="wst_id" id="D2FA91D7-FD8D-6FC5-F589-02A7B178BADF">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<generatorID>DD3E455D-E2A3-4470-9E54-3519F0751781</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99886B93-43D0-D421-7254-EB7A689D05A2" referredColumn="FE735FD1-1FAB-3B23-389A-7552B5B3E7AC"/>
+</associations>
+</Column>
+<Column name="ctn_freq" id="38C6F068-1BE9-57D7-DAD1-73FFBF3B8A58">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection frequency]]></commentInRDBMS>
+<generatorID>E082FB20-9EDB-FE53-E162-247DBF19C58B</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFA2D7CD-885E-1CAB-B427-932DFBC791EC" name="COLLECTION_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>91DA13B8-F149-4D1D-6BAC-BD53B53F56C4</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2FA91D7-FD8D-6FC5-F589-02A7B178BADF"/>
+<colUsage columnID="641BD2BC-FDA3-4901-D0EF-615A895F9674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0B913EC-BFFB-02E7-F53E-F0C28882BEFF" name="collection_waste_type">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>E407EAEC-E06B-DF50-C3BF-E5FC8BD775D4</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D2FA91D7-FD8D-6FC5-F589-02A7B178BADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC40BF3A-F444-267D-5030-214D0B7660C5" name="Relation_31">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>C30D284A-605C-3480-8A29-6986B9F6CF17</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="641BD2BC-FDA3-4901-D0EF-615A895F9674"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

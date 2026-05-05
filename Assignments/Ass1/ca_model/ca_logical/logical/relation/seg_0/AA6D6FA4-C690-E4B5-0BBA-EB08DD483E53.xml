@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="property_bin" directorySegmentName="seg_0" id="AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 13:38:55 UTC</createdTime>
 <ownerDesignName>ca_logical</ownerDesignName>
@@ -8,6 +8,7 @@
 </engineerTo>
 <sourcePk>C331D53B-31C0-95B9-53E0-BF45ADF096B1</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>has</nameOnSource>
 <optionalSource>false</optionalSource>
 <optionalTarget>true</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

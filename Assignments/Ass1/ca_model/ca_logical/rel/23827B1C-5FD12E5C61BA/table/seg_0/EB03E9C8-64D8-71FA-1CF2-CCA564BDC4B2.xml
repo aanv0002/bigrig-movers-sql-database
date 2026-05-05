@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB03E9C8-64D8-71FA-1CF2-CCA564BDC4B2" name="PROPERTY">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>7AA9ECA8-183F-B3C2-E7BB-8BAFAE4B9C93</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="prop_id" id="B1D7757C-2C0F-CB5F-78CE-BE3047340B7C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[property id (surrogate pk)]]></commentInRDBMS>
+<generatorID>8A7C8C8D-3DCE-E72B-F169-646936022D2F</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prop_street_no" id="343F8FCC-9597-DE02-0CC3-364817E40AC7">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[property street number]]></commentInRDBMS>
+<generatorID>FE7074E6-25EC-3AF8-F7D0-19CB04AC4504</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="str_id" id="5773B484-48D7-2310-8992-D218CD023F6F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id number]]></commentInRDBMS>
+<generatorID>D984F299-F4C0-27A2-7ABA-28E6D2321BE0</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37D1898C-6936-7D50-8B44-33A9059D925F" referredColumn="6BFF6DDD-6A10-1F6E-55A4-610443B8A518"/>
+</associations>
+</Column>
+<Column name="auth_name" id="CBE09D52-3798-7599-2528-BFD66F347F4E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[local authority name]]></commentInRDBMS>
+<generatorID>81FBBB18-AE00-CDBC-F943-A8F9E2BF8285</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37D1898C-6936-7D50-8B44-33A9059D925F" referredColumn="C8399731-CBDE-8145-7A2F-A8F824AEAF83"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C82207E1-84B7-A259-1E1B-C23EA5F0EBF7" name="PROPERTY_PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>C331D53B-31C0-95B9-53E0-BF45ADF096B1</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1D7757C-2C0F-CB5F-78CE-BE3047340B7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D9A2F789-D16E-3816-81D0-A5E4DA497120" name="PROPERTY_NK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>776EA594-044A-0E62-91E4-788FBF59F1D8</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="343F8FCC-9597-DE02-0CC3-364817E40AC7"/>
+<colUsage columnID="5773B484-48D7-2310-8992-D218CD023F6F"/>
+<colUsage columnID="CBE09D52-3798-7599-2528-BFD66F347F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB96C5F0-F118-7BCC-4FAE-309DFD845A97" name="street_property_authority">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 15:46:01 UTC</createdTime>
+<generatorID>A2371D6E-83CF-8FA2-64C6-91BE4EC888AC</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5773B484-48D7-2310-8992-D218CD023F6F"/>
+<colUsage columnID="CBE09D52-3798-7599-2528-BFD66F347F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
