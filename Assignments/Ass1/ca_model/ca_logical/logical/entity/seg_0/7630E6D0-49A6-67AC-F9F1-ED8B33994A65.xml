@@ -89,57 +89,6 @@
 </listOfValues>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="prop_street_no" id="89FCC915-BF8A-388A-A323-4F531F4FA9B5">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 13:38:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[property street number]]></commentInRDBMS>
-<generatorID>AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>FE7074E6-25EC-3AF8-F7D0-19CB04AC4504</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="str_id" id="03A0DE10-1929-E7A2-446C-D9BECFE864A6">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 13:38:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[street id number]]></commentInRDBMS>
-<generatorID>AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D984F299-F4C0-27A2-7ABA-28E6D2321BE0</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="auth_name" id="28674DA1-A244-ED4F-9A2F-BEA03967CBBC">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 13:38:55 UTC</createdTime>
-<commentInRDBMS><![CDATA[local authority name]]></commentInRDBMS>
-<generatorID>AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>81FBBB18-AE00-CDBC-F943-A8F9E2BF8285</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="wst_id" id="D6DE4A20-1F52-1829-AB89-F8C5C19E7A4D">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 14:08:31 UTC</createdTime>
@@ -154,6 +103,23 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prop_id" id="AA2F265B-0D97-2EF8-353B-2893FAC8CBB4">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:30:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[property id (surrogate pk)]]></commentInRDBMS>
+<generatorID>AA6D6FA4-C690-E4B5-0BBA-EB08DD483E53</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8A7C8C8D-3DCE-E72B-F169-646936022D2F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

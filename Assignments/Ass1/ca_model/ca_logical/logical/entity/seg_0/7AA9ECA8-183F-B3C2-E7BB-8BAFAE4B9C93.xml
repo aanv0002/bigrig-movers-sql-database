@@ -15,6 +15,20 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="prop_id" id="8A7C8C8D-3DCE-E72B-F169-646936022D2F">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:29:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[property id (surrogate pk)]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="prop_street_no" id="FE7074E6-25EC-3AF8-F7D0-19CB04AC4504">
 <createdBy>ASUS</createdBy>
 <createdTime>2026-05-05 13:16:59 UTC</createdTime>
@@ -71,6 +85,18 @@
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>8A7C8C8D-3DCE-E72B-F169-646936022D2F</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="776EA594-044A-0E62-91E4-788FBF59F1D8" name="PROPERTY_NK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:31:33 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<newElementsIDs>FE7074E6-25EC-3AF8-F7D0-19CB04AC4504,A2371D6E-83CF-8FA2-64C6-91BE4EC888AC</newElementsIDs>
 <usedAttributes>
 <attributeRef>FE7074E6-25EC-3AF8-F7D0-19CB04AC4504</attributeRef>
 <attributeRef>D984F299-F4C0-27A2-7ABA-28E6D2321BE0</attributeRef>

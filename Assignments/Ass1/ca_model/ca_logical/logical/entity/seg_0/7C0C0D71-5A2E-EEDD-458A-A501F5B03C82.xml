@@ -85,52 +85,20 @@
 <dataTypePrecision>15</dataTypePrecision>
 <ownDataTypeParameters>,15,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="prop_street_no" id="5A6BD891-DBAC-603E-194C-C6A85A620B39">
+<Attribute name="prop_id" id="6D5C5E40-B547-FCF3-881A-66BBB731326F">
 <createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 13:26:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[property street number]]></commentInRDBMS>
+<createdTime>2026-05-05 14:30:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[property id (surrogate pk)]]></commentInRDBMS>
 <generatorID>6AFA540C-1356-48F8-B4C5-F5E8EF855A92</generatorID>
 <ownerDesignName>ca_logical</ownerDesignName>
 <engineerTo>
 <item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
 </engineerTo>
-<referedAttribute>FE7074E6-25EC-3AF8-F7D0-19CB04AC4504</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>4</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="str_id" id="B97D0868-5CAD-FF6A-CBD5-FE2592A13775">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 13:26:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[street id number]]></commentInRDBMS>
-<generatorID>6AFA540C-1356-48F8-B4C5-F5E8EF855A92</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<referedAttribute>D984F299-F4C0-27A2-7ABA-28E6D2321BE0</referedAttribute>
+<referedAttribute>8A7C8C8D-3DCE-E72B-F169-646936022D2F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>4</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="auth_name" id="7C030AEB-6281-ADFB-0DA3-48FAB90E206A">
-<createdBy>ASUS</createdBy>
-<createdTime>2026-05-05 13:26:00 UTC</createdTime>
-<commentInRDBMS><![CDATA[local authority name]]></commentInRDBMS>
-<generatorID>6AFA540C-1356-48F8-B4C5-F5E8EF855A92</generatorID>
-<ownerDesignName>ca_logical</ownerDesignName>
-<engineerTo>
-<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
-</engineerTo>
-<referedAttribute>81FBBB18-AE00-CDBC-F943-A8F9E2BF8285</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>20</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
