@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF32BE2C-82CB-E754-B193-13ABA7DD5EDF" name="WASTE TYPE">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:57:02 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wst_id" id="24F65C3B-EB44-9253-484B-2277620F8ADC">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:57:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wst_desc" id="FD52A6CF-33F8-CBB5-E2CB-2411CFB3972C">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:57:29 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type description]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bin_id" id="FD1EE6AC-DD1A-DE80-1910-80CAC2AB4A73">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:08:50 UTC</createdTime>
+<commentInRDBMS><![CDATA[bin rfid tag number]]></commentInRDBMS>
+<generatorID>993A1390-A947-4372-D67B-3E75F6A4FC3C</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>131FDDEB-EFCB-D22A-73F1-0B7B79E46CDA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>29</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F775B6E7-E59A-CA89-C182-73A87E888B66" name="WASTE TYPE PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:57:21 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>24F65C3B-EB44-9253-484B-2277620F8ADC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

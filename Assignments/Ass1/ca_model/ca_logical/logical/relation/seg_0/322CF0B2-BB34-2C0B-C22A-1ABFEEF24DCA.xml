@@ -8,6 +8,7 @@
 </engineerTo>
 <sourcePk>79C0068E-4C73-91B5-BB21-0250C01EDB5F</sourcePk>
 <identifying>true</identifying>
+<nameOnSource>is assigned</nameOnSource>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>

@@ -43,7 +43,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>20</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="str_name" id="B5604B49-7172-F497-DFD3-3B7BF4F4069D">
 <createdBy>ASUS</createdBy>

@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA9135A0-6A93-EA8C-E24A-E8630272FC18" name="CONTRACT">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:22:03 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ct_no" id="097B9F19-9091-AB98-8654-00D480BA6D71">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:22:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract number]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="wst_id" id="FD98CB53-6918-63AC-F4EE-6234D03DF409">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 14:05:19 UTC</createdTime>
+<commentInRDBMS><![CDATA[waste type id]]></commentInRDBMS>
+<generatorID>5468ED41-EA79-A649-74C7-DF04CED21268</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>24F65C3B-EB44-9253-484B-2277620F8ADC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_collection_cost_per_kg" id="8F1384DB-68A5-77C2-2E5F-7E5C2675164A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:33:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[collection cost per kg as in the contract]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_supply_cost" id="C63506EB-FB09-E655-9E8C-404EEFF2A737">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:34:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[supply cost as per the contract]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_start_date" id="48B40673-5FF8-B5C5-6FD5-F5A4DA91BDCD">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:35:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract start date]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ct_end_date" id="D611A0E6-BEFD-58C1-06E9-5FFE31689A84">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:35:28 UTC</createdTime>
+<commentInRDBMS><![CDATA[contract end date]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="4673EE1B-3EDF-38AD-DB03-856E46A03D7E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:21:02 UTC</createdTime>
+<commentInRDBMS><![CDATA[local authority name]]></commentInRDBMS>
+<generatorID>D21B63AF-12E1-2DAC-455F-692AEE551B36</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>3F977D63-1A35-66DD-51F3-F249B8E793EC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3C222AA-64F8-33FC-509A-CCFC62378A66" name="CONTRACT PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-04 15:22:30 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>097B9F19-9091-AB98-8654-00D480BA6D71</attributeRef>
+<attributeRef>FD98CB53-6918-63AC-F4EE-6234D03DF409</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

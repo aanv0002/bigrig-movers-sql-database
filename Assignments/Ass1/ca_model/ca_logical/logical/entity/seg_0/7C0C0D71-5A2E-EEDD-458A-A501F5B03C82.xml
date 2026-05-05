@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C0C0D71-5A2E-EEDD-458A-A501F5B03C82" name="OWNER">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:05:08 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="owner_id" id="D33519B6-326D-A507-32AC-FF12389DAA8A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:05:16 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner id]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_name" id="CB86ECF1-BA8A-A0BD-DD06-D49269085201">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:05:33 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner name]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_email" id="F743FEE8-E1F2-D337-875C-18FB5D8D072A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:05:53 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner email]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_address" id="88FC2ED0-226E-4888-6AE9-22BEA487BB5E">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:06:11 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner address]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>65</dataTypeSize>
+<ownDataTypeParameters>65,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="owner_phone" id="E0A3C657-DF4F-F877-051E-8B02217B1BCF">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:06:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[owner phone number]]></commentInRDBMS>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prop_street_no" id="5A6BD891-DBAC-603E-194C-C6A85A620B39">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:26:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[property street number]]></commentInRDBMS>
+<generatorID>6AFA540C-1356-48F8-B4C5-F5E8EF855A92</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>FE7074E6-25EC-3AF8-F7D0-19CB04AC4504</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="str_id" id="B97D0868-5CAD-FF6A-CBD5-FE2592A13775">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:26:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[street id number]]></commentInRDBMS>
+<generatorID>6AFA540C-1356-48F8-B4C5-F5E8EF855A92</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>D984F299-F4C0-27A2-7ABA-28E6D2321BE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="auth_name" id="7C030AEB-6281-ADFB-0DA3-48FAB90E206A">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:26:00 UTC</createdTime>
+<commentInRDBMS><![CDATA[local authority name]]></commentInRDBMS>
+<generatorID>6AFA540C-1356-48F8-B4C5-F5E8EF855A92</generatorID>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<referedAttribute>81FBBB18-AE00-CDBC-F943-A8F9E2BF8285</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6770461D-DF24-2964-5F9A-032CEB4207ED" name="OWNER PK">
+<createdBy>ASUS</createdBy>
+<createdTime>2026-05-05 13:05:28 UTC</createdTime>
+<ownerDesignName>ca_logical</ownerDesignName>
+<engineerTo>
+<item key="23827B1C-059D-99CA-FC82-5FD12E5C61BA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D33519B6-326D-A507-32AC-FF12389DAA8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
