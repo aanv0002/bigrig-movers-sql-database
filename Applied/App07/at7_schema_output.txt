@@ -1,0 +1,109 @@
+SQL> 
+SQL> DROP TABLE salesrep CASCADE CONSTRAINTS PURGE;
+
+Table SALESREP dropped.
+
+SQL> DROP TABLE drug CASCADE CONSTRAINTS PURGE;
+
+Table DRUG dropped.
+
+SQL> DROP TABLE salesrep_drug CASCADE CONSTRAINTS PURGE;
+
+Table SALESREP_DRUG dropped.
+
+SQL> 
+SQL> CREATE TABLE salesrep(
+  2      slsrep_id NUMBER(3) NOT NULL,
+  3      slsrep_name VARCHAR2(50) NOT NULL,
+  4      slsrep_mobile CHAR(10) NOT NULL
+  5  );
+
+Table SALESREP created.
+
+SQL> 
+SQL> COMMENT ON COLUMN salesrep.slsrep_id IS 'Salesrep ID';
+
+Comment created.
+
+SQL> COMMENT ON COLUMN salesrep.slsrep_name IS 'Salesrep Name';
+
+Comment created.
+
+SQL> COMMENT ON COLUMN salesrep.slsrep_mobile IS 'Salesrep Mobile';
+
+Comment created.
+
+SQL> 
+SQL> ALTER TABLE salesrep ADD CONSTRAINT salesrep_pk PRIMARY KEY ( slsrep_id );
+
+Table SALESREP altered.
+
+SQL> ALTER TABLE salesrep ADD CONSTRAINT slsrep_mobile_uq UNIQUE (slsrep_mobile);
+
+Table SALESREP altered.
+
+SQL> 
+SQL> CREATE TABLE drug(
+  2      drug_code CHAR(6) NOT NULL,
+  3      drug_name VARCHAR2(50) NOT NULL,
+  4      drug_pbs CHAR(1) NOT NULL
+  5  );
+
+Table DRUG created.
+
+SQL> 
+SQL> COMMENT ON COLUMN drug.drug_code IS 'Drug Code';
+
+Comment created.
+
+SQL> COMMENT ON COLUMN drug.drug_name IS 'Drug Name';
+
+Comment created.
+
+SQL> COMMENT ON COLUMN drug.drug_pbs IS 'Drug PBS Status';
+
+Comment created.
+
+SQL> 
+SQL> ALTER TABLE drug ADD CONSTRAINT drug_pk PRIMARY KEY ( drug_code );
+
+Table DRUG altered.
+
+SQL> ALTER TABLE drug ADD CONSTRAINT chk_drug_pbs CHECK ( drug_pbs IN ('Y', 'N'));
+
+Table DRUG altered.
+
+SQL> 
+SQL> CREATE TABLE salesrep_drug(
+  2      drug_code CHAR(6) NOT NULL,
+  3      slsrep_id NUMBER(3) NOT NULL,
+  4      sd_date_assigned Date NOT NULL
+  5  );
+
+Table SALESREP_DRUG created.
+
+SQL> 
+SQL> COMMENT ON COLUMN salesrep_drug.slsrep_id IS 'Salesrep ID';
+
+Comment created.
+
+SQL> COMMENT ON COLUMN salesrep_drug.drug_code IS 'Drug Code';
+
+Comment created.
+
+SQL> 
+SQL> 
+SQL> ALTER TABLE salesrep_drug ADD CONSTRAINT slsrep_drug_pk PRIMARY KEY (drug_code, slsrep_id);
+
+Table SALESREP_DRUG altered.
+
+SQL> ALTER TABLE salesrep_drug ADD CONSTRAINT drug_fk FOREIGN KEY(drug_code) REFERENCES drug(drug_code);
+
+Table SALESREP_DRUG altered.
+
+SQL> ALTER TABLE salesrep_drug ADD CONSTRAINT slsrep_fk FOREIGN KEY(slsrep_id) REFERENCES salesrep(slsrep_id);
+
+Table SALESREP_DRUG altered.
+
+SQL> 
+SQL> spool off
