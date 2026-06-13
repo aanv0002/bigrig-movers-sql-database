@@ -1,0 +1,24 @@
+SQL> 
+SQL> -- describe tables
+SQL> desc product;
+Name       Null?    Type         
+---------- -------- ------------ 
+PROD_NO   NOT NULL NUMBER(4)   
+PROD_NAME NOT NULL VARCHAR2(50) 
+PROD_PRICE NOT NULL NUMBER(6,2) 
+PROD_STOCK NOT NULL NUMBER(3)   
+VENDOR_ID NOT NULL NUMBER(3)   
+SQL> desc vendor;
+Name         Null?    Type         
+------------ -------- ------------ 
+VENDOR_ID   NOT NULL NUMBER(3)   
+VENDOR_NAME NOT NULL VARCHAR2(50) 
+VENDOR_PHONE NOT NULL CHAR(10)    
+SQL> 
+SQL> -- show data inserted
+SQL> 
+SQL> -- Vendors without products
+SQL> 
+SQL> -- products with stock < 10
+SQL> 
+SQL> set echo OFF
