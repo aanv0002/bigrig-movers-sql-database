@@ -158,29 +158,29 @@ ALTER TABLE quote ADD CONSTRAINT quote_pk PRIMARY KEY ( quote_no );
 
 ALTER TABLE employee
     ADD CONSTRAINT emp_no_manager_emp_fk FOREIGN KEY(emp_no_manager) 
-    REFERENCES employee(emp_no);
+    REFERENCES employee(emp_no) ON DELETE SET NULL;
 
 ALTER TABLE job
     ADD 
     (CONSTRAINT qt_job_fk FOREIGN KEY(quote_no)
-    REFERENCES quote(quote_no),
+    REFERENCES quote(quote_no) ON DELETE SET NULL,
 
     CONSTRAINT sched_emp_job_fk FOREIGN KEY(sched_emp_no) 
-    REFERENCES employee(emp_no),
+    REFERENCES employee(emp_no) ON DELETE SET NULL,
 
     CONSTRAINT driver_emp_job_fk FOREIGN KEY(driver_emp_no) 
-    REFERENCES employee(emp_no),
+    REFERENCES employee(emp_no) ON DELETE SET NULL,
     
     CONSTRAINT trailer_comb_job_fk FOREIGN KEY(trailer_code) 
-    REFERENCES combination(trailer_code),
+    REFERENCES combination(trailer_code) ON DELETE SET NULL,
     
     CONSTRAINT truck_comb_job_fk FOREIGN KEY(truck_vin) 
-    REFERENCES combination(truck_vin));
+    REFERENCES combination(truck_vin) ON DELETE SET NULL);
 
 ALTER TABLE quote
     ADD 
     (CONSTRAINT emp_qt_fk FOREIGN KEY(emp_no) 
-    REFERENCES employee(emp_no),
+    REFERENCES employee(emp_no) ON DELETE SET NULL,
 
     CONSTRAINT cust_qt_fk FOREIGN KEY(cust_no) 
-    REFERENCES customer(cust_no));
+    REFERENCES customer(cust_no) ON DELETE SET NULL);
