@@ -30,7 +30,7 @@ CREATE TABLE employee (
     emp_fname         VARCHAR2(30) NOT NULL,
     emp_contact_no    CHAR(10) NOT NULL,
     emp_licenceno     VARCHAR2(11),
-    emp_role          NUMBER(3) NOT NULL,
+    emp_role          CHAR(1) NOT NULL,
     emp_no_manager    NUMBER(3)
 );
 
