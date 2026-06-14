@@ -10,6 +10,7 @@ Indicate if AI was used (Yes/No): Yes
 If AI was used:
 I used Google Gemini
 I used these prompts:
+First prompt for Task 2
 generate insert statements for 
 10 EMPLOYEE entries 
 Involved at least 2 managers, 2 truck dispatchers, 1 mechanic and 2 drivers 
@@ -32,6 +33,9 @@ If the primary key attribute’s data type is numeric, it must consist of values
 (iii)Dates used must be chosen between the 1st May 2026 and 31st July 2026.
 (iv) The data added must be sensible (e.g. the drop-off time must be after the pick up time;
  only employees with the role Driver can drive the truck; the job must align with the quote; etc).
+
+ Second prompt after Task 3(a)
+ insert manager named Sarah Mitchell and driver named Michael Johnson and follow the same rules above
 */
 
 --------------------------------------
@@ -43,6 +47,9 @@ VALUES (1, 'John', 'Smith', '0411111111', NULL, 'B', NULL);
 
 INSERT INTO employee (emp_no, emp_gname, emp_fname, emp_contact_no, emp_licenceno, emp_role, emp_no_manager)
 VALUES (2, 'Jane', 'Doe', '0422222222', NULL, 'B', NULL);
+
+INSERT INTO employee (emp_no, emp_gname, emp_fname, emp_contact_no, emp_licenceno, emp_role, emp_no_manager)
+VALUES (11, 'Sarah', 'Mitchell', '0412121212', NULL, 'B', NULL);
 
 -- Truck Dispatchers (Assigned to Manager 1)
 INSERT INTO employee (emp_no, emp_gname, emp_fname, emp_contact_no, emp_licenceno, emp_role, emp_no_manager)
@@ -70,6 +77,10 @@ VALUES (9, 'Jessica', 'Thomas', '0499999999', 'LIC10000004', 'D', 2);
 
 INSERT INTO employee (emp_no, emp_gname, emp_fname, emp_contact_no, emp_licenceno, emp_role, emp_no_manager)
 VALUES (10, 'Daniel', 'Jackson', '0412345678', 'LIC10000005', 'D', 2);
+
+-- Added Driver (Assigned to new Manager Sarah Mitchell)
+INSERT INTO employee (emp_no, emp_gname, emp_fname, emp_contact_no, emp_licenceno, emp_role, emp_no_manager)
+VALUES (12, 'Michael', 'Johnson', '0434343434', 'LIC10000006', 'D', 11);
 
 --------------------------------------
 --INSERT INTO quote

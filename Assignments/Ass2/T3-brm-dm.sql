@@ -10,6 +10,14 @@
 */
 
 --3(a)
+drop sequence EMPLOYEE_SEQ;
+create sequence EMPLOYEE_SEQ start with 300 increment by 5;
+
+drop sequence QUOTE_SEQ;
+create sequence QUOTE_SEQ start with 300 increment by 5;
+
+drop sequence JOB_SEQ;
+create sequence JOB_SEQ start with 300 increment by 5;
 
 
 --3(b)
