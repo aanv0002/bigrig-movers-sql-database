@@ -86,9 +86,17 @@ and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and
 
 COMMIT;
 
+--Assumption/Notes
+--There is only one customer named VICTORIA ELLA from the Flintstone Store in the database
+--There is only one quote placed by VICTORIA ELLA on 17 May 2026
+
 --3(e)
 
 DELETE from job where quote_no=(SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy') 
 and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')));
 
 COMMIT;
+
+--Assumption/Notes
+--There is only one customer named VICTORIA ELLA from the Flintstone Store in the database
+--There is only one quote placed by VICTORIA ELLA on 17 May 2026
