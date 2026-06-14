@@ -10,59 +10,80 @@
 */
 
 --3(a)
-drop sequence EMPLOYEE_SEQ;
-create sequence EMPLOYEE_SEQ start with 300 increment by 5;
+DROP SEQUENCE employee_seq;
+CREATE SEQUENCE employee_seq START WITH 300 INCREMENT BY 5;
 
-drop sequence QUOTE_SEQ;
-create sequence QUOTE_SEQ start with 300 increment by 5;
+DROP SEQUENCE quote_seq;
+CREATE SEQUENCE quote_seq START WITH 300 INCREMENT BY 5;
 
-drop sequence JOB_SEQ;
-create sequence JOB_SEQ start with 300 increment by 5;
+DROP SEQUENCE job_seq;
+CREATE SEQUENCE job_seq START WITH 300 INCREMENT BY 5;
 
 
 --3(b)
-insert into employee values (
-    EMPLOYEE_SEQ.nextval,
-    'Aurello',
-    'Brown',
-    '0431952053',
-    NULL,
-    'T',
-    (SELECT emp_no from employee where upper(emp_gname)=upper('Sarah') and upper(emp_fname)=upper('Mitchell'))
-);
+INSERT INTO employee VALUES ( employee_seq.NEXTVAL,
+                              'Aurello',
+                              'Brown',
+                              '0431952053',
+                              NULL,
+                              'T',
+                              (
+                                  SELECT emp_no
+                                    FROM employee
+                                   WHERE upper(emp_gname) = upper('Sarah')
+                                     AND upper(emp_fname) = upper('Mitchell')
+                              ) );
+
+COMMIT;
 
 --Assumptions/Notes
 --There is only one manager named Sarah Mitchell
 --The case for Aurello Brown has been maintained as supplied
 --Since Sarah Mitchell is given in itallics in the question, search conducted in the database for the string as listed
 
-COMMIT;
 
 --3(c)
-INSERT INTO quote VALUES (
-    QUOTE_SEQ.nextval,
-    to_date('17-May-2026', 'dd-Mon-yyyy'),
-    to_date('25-May-2026', 'dd-Mon-yyyy'),
-    '29 Kuranda Road, Adelaide SA 5030',
-    '9 Albatros Drive, Mount Gambier SA 5270',
-    1000.00,
-    (SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')),
-    (SELECT emp_no from employee where emp_contact_no='0431952053')
-);
+INSERT INTO quote VALUES ( quote_seq.NEXTVAL,
+                           TO_DATE('17-May-2026','dd-Mon-yyyy'),
+                           TO_DATE('25-May-2026','dd-Mon-yyyy'),
+                           '29 Kuranda Road, Adelaide SA 5030',
+                           '9 Albatros Drive, Mount Gambier SA 5270',
+                           1000.00,
+                           (
+                               SELECT cust_no
+                                 FROM customer
+                                WHERE upper(cust_gname) = 'VICTORIA'
+                                  AND upper(cust_fname) = 'ELLA'
+                                  AND upper(cust_bname) = upper('Flintstone Store')
+                           ),
+                           (
+                               SELECT emp_no
+                                 FROM employee
+                                WHERE emp_contact_no = '0431952053'
+                           ) );
 
 
-INSERT INTO job VALUES (
-    JOB_SEQ.nextval,
-    to_date('25-May-2026 09:00', 'dd-Mon-yyyy HH24:MI'),
-    to_date('25-May-2026 09:00', 'dd-Mon-yyyy HH24:MI') + (5/24),
-    NULL,
-    'Y',
-    QUOTE_SEQ.currval,
-    (SELECT emp_no from employee where emp_contact_no='0431952053'),
-    (SELECT emp_no from employee where upper(emp_gname)=upper('Michael') and upper(emp_fname)=upper('Johnson') and upper(emp_role)='D'),
-    'TRL08',
-    '1HGBH41JXMN109186'
-);
+INSERT INTO job VALUES ( job_seq.NEXTVAL,
+                         TO_DATE('25-May-2026 09:00','dd-Mon-yyyy HH24:MI'),
+                         TO_DATE('25-May-2026 09:00','dd-Mon-yyyy HH24:MI') + ( 5 / 24
+                         ),
+                         NULL,
+                         'Y',
+                         quote_seq.CURRVAL,
+                         (
+                             SELECT emp_no
+                               FROM employee
+                              WHERE emp_contact_no = '0431952053'
+                         ),
+                         (
+                             SELECT emp_no
+                               FROM employee
+                              WHERE upper(emp_gname) = upper('Michael')
+                                AND upper(emp_fname) = upper('Johnson')
+                                AND upper(emp_role) = 'D'
+                         ),
+                         'TRL08',
+                         '1HGBH41JXMN109186' );
 
 COMMIT;
 
@@ -72,16 +93,28 @@ COMMIT;
 
 --3(d)
 
-UPDATE job set 
-
-job_cost = (SELECT quote_cost*(1.2) from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy')),
-
-job_pickup_dt = to_date('25-May-2026 14:00', 'dd-Mon-yyyy HH24:MI'), 
-
-job_intended_dropoff_dt=to_date('25-May-2026 14:00', 'dd-Mon-yyyy HH24:MI') + (5/24)
-
-where quote_no IN (SELECT quote_no from quote where (quote_prepared_date=to_date('17-May-2026', 'dd-Mon-yyyy') 
-and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store'))));
+UPDATE job
+   SET job_cost = (
+    SELECT quote_cost * ( 1.2 )
+      FROM quote
+     WHERE quote_prepared_date = TO_DATE('17-May-2026','dd-Mon-yyyy')
+),
+       job_pickup_dt = TO_DATE('25-May-2026 14:00','dd-Mon-yyyy HH24:MI'),
+       job_intended_dropoff_dt = TO_DATE('25-May-2026 14:00','dd-Mon-yyyy HH24:MI') +
+       ( 5 / 24 )
+ WHERE quote_no IN (
+    SELECT quote_no
+      FROM quote
+     WHERE ( quote_prepared_date = TO_DATE('17-May-2026',
+             'dd-Mon-yyyy')
+       AND cust_no = (
+        SELECT cust_no
+          FROM customer
+         WHERE upper(cust_gname) = 'VICTORIA'
+           AND upper(cust_fname) = 'ELLA'
+           AND upper(cust_bname) = upper('Flintstone Store')
+    ) )
+);
 
 COMMIT;
 
@@ -91,8 +124,20 @@ COMMIT;
 
 --3(e)
 
-DELETE from job where quote_no IN (SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy') 
-and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')));
+DELETE FROM job
+ WHERE quote_no IN (
+    SELECT quote_no
+      FROM quote
+     WHERE quote_prepared_date = TO_DATE('17-May-2026',
+             'dd-Mon-yyyy')
+       AND cust_no = (
+        SELECT cust_no
+          FROM customer
+         WHERE upper(cust_gname) = 'VICTORIA'
+           AND upper(cust_fname) = 'ELLA'
+           AND upper(cust_bname) = upper('Flintstone Store')
+    )
+);
 
 COMMIT;
 
