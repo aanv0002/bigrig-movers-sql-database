@@ -25,7 +25,7 @@ insert into employee values (
     EMPLOYEE_SEQ.nextval,
     'Aurello',
     'Brown',
-    0431952053,
+    '0431952053',
     NULL,
     'T',
     (SELECT emp_no from employee where upper(emp_gname)=upper('Sarah') and upper(emp_fname)=upper('Mitchell'))
@@ -72,17 +72,16 @@ COMMIT;
 
 --3(d)
 
-UPDATE job set job_cost=(SELECT quote_cost from quote where quote_prepared_date=to_date('25-May-2026','dd-Mon-yyyy'))*(1+(20/100)) 
-where quote_no=(SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy') 
-and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')));
+UPDATE job set 
 
-UPDATE job set job_pickup_dt=to_date('25-May-2026 14:00', 'dd-Mon-yyyy HH24:MI')
-where quote_no=(SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy')
-and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')));
+job_cost = (SELECT quote_cost*(1.2) from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy')),
 
-UPDATE job set job_intended_dropoff_dt=to_date('25-May-2026 14:00', 'dd-Mon-yyyy HH24:MI') + (5/24)
-where quote_no=(SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy') 
-and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')));
+job_pickup_dt = to_date('25-May-2026 14:00', 'dd-Mon-yyyy HH24:MI'), 
+
+job_intended_dropoff_dt=to_date('25-May-2026 14:00', 'dd-Mon-yyyy HH24:MI') + (5/24)
+
+where quote_no IN (SELECT quote_no from quote where (quote_prepared_date=to_date('17-May-2026', 'dd-Mon-yyyy') 
+and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store'))));
 
 COMMIT;
 
@@ -92,7 +91,7 @@ COMMIT;
 
 --3(e)
 
-DELETE from job where quote_no=(SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy') 
+DELETE from job where quote_no IN (SELECT quote_no from quote where quote_prepared_date=to_date('17-May-2026','dd-Mon-yyyy') 
 and cust_no=(SELECT cust_no from customer where upper(cust_gname)='VICTORIA' and upper(cust_fname)='ELLA' and upper(cust_bname)=upper('Flintstone Store')));
 
 COMMIT;
