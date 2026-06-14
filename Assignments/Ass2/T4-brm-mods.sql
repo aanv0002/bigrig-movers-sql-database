@@ -54,3 +54,48 @@ DESC quote;
 
 --4(b)
 
+CREATE TABLE truck_services (
+    truck_vin        CHAR(17) NOT NULL,
+    mech_emp_no      NUMBER(3) NOT NULL,
+    tckserv_name     VARCHAR2(15) NOT NULL,
+    tckserv_task     VARCHAR2(15) NOT NULL,
+    tckserv_note     VARCHAR2(200) NOT NULL,
+    tckserv_start_dt DATE NOT NULL,
+    tckserv_end_dt   DATE
+);
+
+COMMENT ON COLUMN truck_services.truck_vin IS
+    'Vehicle Indentification Number (VIN)';
+
+COMMENT ON COLUMN truck_services.mech_emp_no IS
+    'Employee number of the mechanic assigned';
+
+COMMENT ON COLUMN truck_services.tckserv_name IS
+    'Name of the service';
+
+COMMENT ON COLUMN truck_services.tckserv_task IS
+    'Name of the service task';
+
+COMMENT ON COLUMN truck_services.tckserv_note IS
+    'Free text note explaining the task in detail';
+
+COMMENT ON COLUMN truck_services.tckserv_start_dt IS
+    'Date and time the service started';
+
+COMMENT ON COLUMN truck_services.tckserv_end_dt IS
+    'Date and time the service ended';
+
+ALTER TABLE truck_services ADD (
+    CONSTRAINT truck_services_pk
+        PRIMARY KEY ( truck_vin,
+                      mech_emp_no,
+                      tckserv_name,
+                      tckserv_task,
+                      tckserv_start_dt ),
+    CONSTRAINT truck_tckserv_fk FOREIGN KEY ( truck_vin )
+        REFERENCES truck ( truck_vin ),
+    CONSTRAINT emp_tckserv_fk FOREIGN KEY ( mech_emp_no )
+        REFERENCES employee ( emp_no )
+);
+
+desc truck_services;
