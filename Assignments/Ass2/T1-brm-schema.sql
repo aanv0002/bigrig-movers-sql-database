@@ -53,7 +53,7 @@ COMMENT ON COLUMN employee.emp_role IS
     'Employee role - Manager (B), Truck Dispatcher (T), Mechanic (M), or Driver (D)';
 
 COMMENT ON COLUMN employee.emp_no_manager IS
-    'Employee number of the manager the employee is assigned to'
+    'Employee number of the manager the employee is assigned to';
 
 ALTER TABLE employee 
   ADD 
@@ -171,11 +171,8 @@ ALTER TABLE job
     CONSTRAINT driver_emp_job_fk FOREIGN KEY(driver_emp_no) 
     REFERENCES employee(emp_no) ON DELETE SET NULL,
     
-    CONSTRAINT trailer_comb_job_fk FOREIGN KEY(trailer_code) 
-    REFERENCES combination(trailer_code) ON DELETE SET NULL,
-    
-    CONSTRAINT truck_comb_job_fk FOREIGN KEY(truck_vin) 
-    REFERENCES combination(truck_vin) ON DELETE SET NULL);
+    CONSTRAINT combination_job_fk FOREIGN KEY(trailer_code, truck_vin) 
+    REFERENCES combination(trailer_code, truck_vin) ON DELETE SET NULL);
 
 ALTER TABLE quote
     ADD 
