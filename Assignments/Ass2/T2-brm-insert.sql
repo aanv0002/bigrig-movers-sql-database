@@ -5,11 +5,33 @@
 --Student Name: Amra Anver
 
 /*
-Indicate if AI was used (Yes/No):
+Indicate if AI was used (Yes/No): Yes
 
 If AI was used:
-I used <<specify the GenAI tool here>>
+I used Google Gemini
 I used these prompts:
+generate insert statements for 
+10 EMPLOYEE entries 
+Involved at least 2 managers, 2 truck dispatchers, 1 mechanic and 2 drivers 
+30 QUOTE entries 
+Involved at least 5 different customers and 2 truck dispatchers 
+Involved at least 2 customers who place at minimum 2 quotes 
+20 JOB entries 
+Involved at least 10 truck/trailer combinations 
+Involved at least 5 truck/trailer combinations that are used in at least 2 jobs 
+Involved at least 2 quotes that have never been placed as job 
+Involved at least 5 jobs that have slightly higher or lower cost than the quote 
+Involved at least 5 jobs that have the same cost as the quote
+
+Your inserted data must conform to the following rules: 
+(i)  Treat all the data you add as a single transaction, 
+since you are setting up the initial test state for the database. 
+(ii) The primary key values for this data should be
+hardcoded values (i.e. NOT make use of sequences). 
+If the primary key attribute’s data type is numeric, it must consist of values below 100. 
+(iii)Dates used must be chosen between the 1st May 2026 and 31st July 2026.
+(iv) The data added must be sensible (e.g. the drop-off time must be after the pick up time;
+ only employees with the role Driver can drive the truck; the job must align with the quote; etc).
 */
 
 --------------------------------------
