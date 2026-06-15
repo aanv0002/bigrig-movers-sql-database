@@ -35,7 +35,8 @@ UPDATE quote
 
 UPDATE quote
    SET
-    quote_status = 'N'
+    quote_status = 'N',
+    quote_status_reason = NULL
  WHERE quote_prepared_date < quote_pref_start_date
     OR quote_pref_start_date > (
     SELECT job_pickup_dt
@@ -43,8 +44,12 @@ UPDATE quote
       JOIN quote q
     ON j.quote_no = q.quote_no
 );
---for above update statement, I referred to ed forum post 2496 where the lecturer has commented 'for task 4 blank = null' at the very bottom.
---therefore the quote_status_reason column has been left as null where the quote status is No ('N')
+--for above update statement, I referred to ed forum faq post and post 2496 where the lecturer has commented 'for task 4 blank = null' 
+--at the very bottom, when asked does blank mean an empty string('') or null, null was given as the answer.
+--the same question was asked in post 2212, 'blank means no value added to that column'
+--therefore the quote_status_reason column has been set as NULL when the quote status is No/not assigned ('N') since the brief says
+--'You may leave the reason as blank for those not assigned'
+
 COMMIT;
 
 SELECT *
