@@ -58,6 +58,7 @@ DESC quote;
 
 
 --4(b)
+DROP table truck_services;
 
 CREATE TABLE truck_services (
     truck_vin        CHAR(17) NOT NULL,
