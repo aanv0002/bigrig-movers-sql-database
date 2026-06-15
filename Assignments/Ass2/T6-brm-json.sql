@@ -17,6 +17,11 @@ SET HEADING OFF
 -- ENSURE that your query is formatted and has a semicolon
 -- (;) at the end of this answer
 --used applied 12 task 2 to help create the following create statement
+
+--The main purpose of this query is to generate a json document to retrieve certain customer and quote fields
+--and display them in a easier way to understand
+--Tables used are CUSTOMER, QUOTE and JOB
+--In order to complete this task, Applied 12 recording was referred to help understand JSON documents
 SELECT
     JSON_OBJECT(
         '_id' VALUE cu.cust_no,
