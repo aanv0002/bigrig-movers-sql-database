@@ -741,21 +741,23 @@ db.customerquotes.find();
 // ENSURE that your query is formatted and has a semicolon
 // (;) at the end of this answer
 db.customerquotes.find(
-    {"$and":[
-        {"customer_address": /.*Melbourne.*/},
-// here the $gt has been taken from allowed predicate operators from slide 38 pre workshop 11
-        {"customer_stats.number_of_quotes":{"$gt":2}}
-    ]},
     {
-        "_id":1,
-        "customer_name":1,
-        "customer_address":1,
-        "customer_phone":1,
-//the dot used here represents a sub document similar to the enrolmentInfo.unitcode from Applied 12
-        "customer_stats.number_of_quotes":1,
-        "customer_stats.number_of_jobs":1,
-        "customer_stats.total_paid_jobcost":1,
-        "customer_stats.total_unpaid_jobcost":1
+        "$and": [
+            { "customer_address": /.*Melbourne.*/ },
+            // here the $gt has been taken from allowed predicate operators from slide 38 pre workshop 11
+            { "customer_stats.number_of_quotes": { "$gt": 2 } }
+        ]
+    },
+    {
+        "_id": 1,
+        "customer_name": 1,
+        "customer_address": 1,
+        "customer_phone": 1,
+        //the dot used here represents a sub document similar to the enrolmentInfo.unitcode from Applied 12
+        "customer_stats.number_of_quotes": 1,
+        "customer_stats.number_of_jobs": 1,
+        "customer_stats.total_paid_jobcost": 1,
+        "customer_stats.total_unpaid_jobcost": 1
     }
 );
 
@@ -768,15 +770,61 @@ db.customerquotes.find(
 // (;) at the end of this answer
 
 // (i)  Add the new customer
-
+db.customerquotes.insertOne({
+    "_id": 1001,
+    "customer_name": "Patrick Bosse",
+    "customer_business": "-",
+    "customer_address": "45 Collins Street, Melbourne VIC 3000",
+    "customer_phone": "0422888999",
+    "customer_stats": {
+        "number_of_quotes": 0,
+        "number_of_jobs": 0,
+        "total_paid_jobcost": "-",
+        "total_unpaid_jobcost": "-"
+    },
+    "quotes": []
+});
 
 // Show the customer details
-
+db.customerquotes.find(
+    { "_id": 1001 }
+);
 
 // (ii) Add new quote
 
+//no manual calculations have been made for this task
+//it has been assumed that Patrick Bosse has not made any other quotes
+//necessary updates have been made referring to Applied 12-2 4(b) and 5.
+db.customerquotes.updateOne(
+    { "_id": 1001 },
+    {
+        "$set":
+        {
+            "customer_stats.number_of_quotes": 1,
+            "customer_stats.number_of_jobs": 1,
+            "customer_stats.total_paid_jobcost": "$3200.00",
+            "customer_stats.total_unpaid_jobcost": "-"
+        },
+
+        "$push": {
+            "quotes": {
+                "quote_no": 2002,
+                "quote_prepared_on": "15-Jun-2026",
+                "preferred_start_date": "22-Jun-2026",
+                "start_location": "Adelaide SA",
+                "end_location": "Melbourne VIC",
+                "quote_cost": "$3200.00",
+                "assigned_to_job": "Y",
+                "job_cost": "$3200.00"
+            }
+        }
+
+    }
+);
 
 // Show the customer details
-
+db.customerquotes.find(
+    { "_id": 1001 }
+);
 
 // End of file - do not remove
