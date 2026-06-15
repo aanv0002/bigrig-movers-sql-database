@@ -38,6 +38,7 @@ SELECT c.cust_no,
            || c.cust_fname,
            c.cust_bname
        ) AS cust_name,
+-- Calculate total number of quotes submitted by each customer
        COUNT(q.quote_no) AS num_quotes,
 --Added to char formatting to have a dollar sign in front and seperate thousands with a comma.
        to_char(
@@ -56,6 +57,8 @@ ON c.cust_no = q.cust_no
               || c.cust_fname,
               c.cust_bname
           )
+-- Only include customers whose average quote cost is greater
+-- than the overall average quote cost in the QUOTE table.
 HAVING AVG(q.quote_cost) > (
     SELECT AVG(quote_cost)
       FROM quote
@@ -120,10 +123,12 @@ SELECT e.emp_no,
                '(null)'
        END AS jobs_dispatched
   FROM employee e
+---- LEFT JOIN ensures employees with no assigned jobs are still included in the results.
   LEFT JOIN employee m
 ON e.emp_no_manager = m.emp_no
   LEFT JOIN job j
 ON e.emp_no = j.sched_emp_no
+--group by includes all the columns in the select statement
  GROUP BY e.emp_no,
           e.emp_gname
           || ' '
@@ -183,6 +188,7 @@ SELECT tk.truck_vin,
            WHEN COUNT(j.job_no) = 0 THEN
                'Never Used'
            WHEN COUNT(j.job_no) > (
+            -- Subquery  which calculates the average number of jobs across all truck/trailer combinations currently in use.
                SELECT AVG(COUNT(job_no))
                  FROM job
                 WHERE truck_vin IS NOT NULL
@@ -195,15 +201,19 @@ SELECT tk.truck_vin,
                'Standard Use'
        END AS usage
   FROM combination c
+--LEFT OUTER JOIN to TRUCK and TRAILER tables retrieve data from these tables for each combination by preserving all the data in the combination table
   LEFT OUTER JOIN truck tk
 ON c.truck_vin = tk.truck_vin
   LEFT OUTER JOIN trailer tr
 ON c.trailer_code = tr.trailer_code
+--LEFT OUTER JOIN here to JOB ensures all truck/trailer combinations are included, even if no jobs have been assigned to them.
   LEFT OUTER JOIN job j
 ON c.truck_vin = j.truck_vin
    AND c.trailer_code = j.trailer_code
+--LEFT OUTER JOIN to QUOTE retrieves the quoted cost associated with each job while preserving combinations with no jobs.
   LEFT OUTER JOIN quote q
 ON j.quote_no = q.quote_no
+--group by contains all the columns to be displayed from the select statement
  GROUP BY tk.truck_vin,
           tk.truck_rego,
           tr.trailer_code,
