@@ -1,0 +1,4960 @@
+{
+    "_id": 11443959,
+    "name": "Geraldine Lomb",
+    "contactInfo": {
+        "address": "55 Northwestern Trail, Toorak",
+        "phone": "4819717953",
+        "email": "Geraldine.Lomb@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 39,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 51,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 38,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 50,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 11620237,
+    "name": "Marlane Joiris",
+    "contactInfo": {
+        "address": "385 Warbler Road, Preston",
+        "phone": "5493750951",
+        "email": "Marlane.Joiris@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 93,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 33,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 57,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 12489379,
+    "name": "Gilberto Bwy",
+    "contactInfo": {
+        "address": "5664 Loomis Parkway, Melbourne",
+        "phone": "7037621034",
+        "email": "Gilberto.Bwy@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 40,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 92,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 44,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 12511467,
+    "name": "Francyne Rigney",
+    "contactInfo": {
+        "address": "75 Buhler Street, Mulgrave",
+        "phone": "6994152403",
+        "email": "Francyne.Rigney@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 87,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 98,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 86,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 12609485,
+    "name": "Cassondra Sedcole",
+    "contactInfo": {
+        "address": "6507 Tennessee Alley, Melbourne",
+        "phone": "8343944500",
+        "email": "Cassondra.Sedcole@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 44,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 23,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 12802225,
+    "name": "Friedrick Geist",
+    "contactInfo": {
+        "address": "99271 Eliot Pass, Dingley",
+        "phone": "6787553656",
+        "email": "Friedrick.Geist@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 61,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 12842838,
+    "name": "Herminia Mendus",
+    "contactInfo": {
+        "address": "64186 East Lane, Moorabbin",
+        "phone": "4896374903",
+        "email": "Herminia.Mendus@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 76,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 13019582,
+    "name": "Tani Aitchison",
+    "contactInfo": {
+        "address": "842 Paget Drive, Mount Waverley",
+        "phone": "7352456677",
+        "email": "Tani.Aitchison@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 47,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 81,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 42,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 20,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 13028303,
+    "name": "Herculie Mendus",
+    "contactInfo": {
+        "address": "44 Becker Street, Mulgrave",
+        "phone": "2309618710",
+        "email": "Herculie.Mendus@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 61,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": null
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 88,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 13119134,
+    "name": "Shandra Lindblom",
+    "contactInfo": {
+        "address": "9241 Rieder Parkway, Chelsea",
+        "phone": "4384142213",
+        "email": "Shandra.Lindblom@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": null
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 82,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 91,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 13213723,
+    "name": "Charles Talby",
+    "contactInfo": {
+        "address": "83 Huxley Pass, Edithvale",
+        "phone": "9153377777",
+        "email": "Charles.Talby@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 35,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 13390148,
+    "name": "Brier Kilgour",
+    "contactInfo": {
+        "address": "79776 Dryden Plaza, Moorabbin",
+        "phone": "6981280319",
+        "email": "Brier.Kilgour@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": null
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 93,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 13413109,
+    "name": "Myriam Stirley",
+    "contactInfo": {
+        "address": "7 Spenser Point, Mulgrave",
+        "phone": "6137317101",
+        "email": "Myriam.Stirley@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 13453333,
+    "name": "Pierrette Moynihan",
+    "contactInfo": {
+        "address": "6031 Quincy Street, Chelsea",
+        "phone": "3734578225",
+        "email": "Pierrette.Moynihan@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 1,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 1,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2019",
+            "semester": 2,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2019",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 1,
+            "mark": 60,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 13742778,
+    "name": "Warden Eyden",
+    "contactInfo": {
+        "address": "2016 Lindbergh Way, Parkville",
+        "phone": "4581770865",
+        "email": "Warden.Eyden@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 40,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 82,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 13880303,
+    "name": "Shadow Lamberton",
+    "contactInfo": {
+        "address": "5 Manufacturers Place, Chelsea",
+        "phone": "4985370484",
+        "email": "Shadow.Lamberton@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 98,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2019",
+            "semester": 2,
+            "mark": 61,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 81,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 14374036,
+    "name": "Claudette Serman",
+    "contactInfo": {
+        "address": "12 Ridgeway Plaza, Caulfield",
+        "phone": "2013740473",
+        "email": "Claudette.Serman@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 56,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 81,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 77,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 16,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 14615430,
+    "name": "Siffre Dibdale",
+    "contactInfo": {
+        "address": "4 Anzinger Terrace, Caulfield",
+        "phone": "8647290149",
+        "email": "Siffre.Dibdale@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 92,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2019",
+            "semester": 2,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 94,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 91,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 14635701,
+    "name": "Cord Yard",
+    "contactInfo": {
+        "address": "80510 Oakridge Plaza, Mornington",
+        "phone": "1768871897",
+        "email": "Cord.Yard@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2019",
+            "semester": 2,
+            "mark": 91,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 73,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 14676780,
+    "name": "Niki Sperrett",
+    "contactInfo": {
+        "address": "56 Becker Street, Dingley",
+        "phone": "7804383998",
+        "email": "Niki.Sperrett@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 88,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2019",
+            "semester": 2,
+            "mark": 92,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 73,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 87,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 14900897,
+    "name": "Casper Rottger",
+    "contactInfo": {
+        "address": "5 Heath Way, Caulfield South",
+        "phone": "7443527289",
+        "email": "Casper.Rottger@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 43,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 92,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2019",
+            "semester": 2,
+            "mark": 59,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 97,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 14996864,
+    "name": "Odele Toby",
+    "contactInfo": {
+        "address": "5 Park Meadow Park, Melbourne",
+        "phone": "5388053984",
+        "email": "Odele.Toby2@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 70,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2019",
+            "semester": 2,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 84,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 66,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 15067408,
+    "name": "Eada Royds",
+    "contactInfo": {
+        "address": "30427 Sutteridge Lane, Bonbeach",
+        "phone": "6767466919",
+        "email": "Eada.Royds@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 59,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2019",
+            "semester": 2,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2019",
+            "semester": 2,
+            "mark": 60,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 87,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 15127454,
+    "name": "Lizabeth Stubbings",
+    "contactInfo": {
+        "address": "9 Forster Place, Glen Huntly",
+        "phone": "3362516134",
+        "email": "Lizabeth.Stubbings@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 1,
+            "mark": 32,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2019",
+            "semester": 2,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 95,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 15527149,
+    "name": "Jehanna Gheraldi",
+    "contactInfo": {
+        "address": "247 Bayside Way, Westmeadows",
+        "phone": "1056463437",
+        "email": "Jehanna.Gheraldi@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 84,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 91,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 48,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 98,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 87,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 15543217,
+    "name": "Averell Corp",
+    "contactInfo": {
+        "address": "47 Vernon Point, Caulfield South",
+        "phone": "5505956649",
+        "email": "Averell.Corp@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 53,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 15875842,
+    "name": "Marci Blabber",
+    "contactInfo": {
+        "address": "63 Mandrake Trail, Glen Huntly",
+        "phone": "8501888735",
+        "email": "Marci.Blabber@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 95,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 27,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 98,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 16476616,
+    "name": "Mattheus Kardos",
+    "contactInfo": {
+        "address": "94355 Glacier Hill Terrace, Glen Huntly",
+        "phone": "6246082496",
+        "email": "Mattheus.Kardos@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 28,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 16556292,
+    "name": "Electra Vlies",
+    "contactInfo": {
+        "address": "70258 Graceland Trail, Fitzroy North",
+        "phone": "8465250435",
+        "email": "Electra.Vlies@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 75,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 67,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 16897234,
+    "name": "Cristabel Wood",
+    "contactInfo": {
+        "address": "3 Armistice Way, Hawthorn East",
+        "phone": "3458950301",
+        "email": "Cristabel.Wood@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 51,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 47,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 53,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 16929043,
+    "name": "Billie Friedank",
+    "contactInfo": {
+        "address": "3 Stephen Point, Ormond",
+        "phone": "6564642605",
+        "email": "Billie.Friedank@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 88,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 70,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 17013887,
+    "name": "Harv Wethered",
+    "contactInfo": {
+        "address": "53666 Gateway Court, Oakleigh",
+        "phone": "8699955398",
+        "email": "Harv.Wethered@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 97,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 82,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 17030353,
+    "name": "Mychal Ghiroldi",
+    "contactInfo": {
+        "address": "9 Aberg Terrace, Moorabbin",
+        "phone": "9665614418",
+        "email": "Mychal.Ghiroldi@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 90,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 34,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 22,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 17872041,
+    "name": "Aristotle Rolph",
+    "contactInfo": {
+        "address": "831 Mariners Cove Drive, Parkville",
+        "phone": "3346338024",
+        "email": "Aristotle.Rolph@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 94,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 67,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 54,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 18012671,
+    "name": "Starr Clapton",
+    "contactInfo": {
+        "address": "698 Melody Court, Caulfield",
+        "phone": "7788257538",
+        "email": "Starr.Clapton@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 95,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 72,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 18063424,
+    "name": "Lynnell Cliburn",
+    "contactInfo": {
+        "address": "9 Nelson Alley, Bonbeach",
+        "phone": "3854734276",
+        "email": "Lynnell.Cliburn@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 86,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 84,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 92,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 82,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 18206285,
+    "name": "Barbara-anne Frearson",
+    "contactInfo": {
+        "address": "4 Everett Alley, Dandenong",
+        "phone": "9425947638",
+        "email": "Barbara-anne.Frearson@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 77,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 81,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 18651413,
+    "name": "Buffy Beathem",
+    "contactInfo": {
+        "address": "0598 Donald Crossing, Parkdale",
+        "phone": "3792823265",
+        "email": "Buffy.Beathem@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2019",
+            "semester": 2,
+            "mark": 80,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2020",
+            "semester": 2,
+            "mark": 98,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2019",
+            "semester": 2,
+            "mark": 65,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 18841033,
+    "name": "Artus Swiffen",
+    "contactInfo": {
+        "address": "92160 Carberry Drive, Ormond",
+        "phone": "6881521760",
+        "email": "Artus.Swiffen@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 77,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": 91,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 77,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 19014350,
+    "name": "Morse Andriolli",
+    "contactInfo": {
+        "address": "7095 Sloan Avenue, Parkville",
+        "phone": "9362671163",
+        "email": "Morse.Andriolli@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 77,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 19273222,
+    "name": "Silvio Cornwell",
+    "contactInfo": {
+        "address": "9 Paget Parkway, South Yarra",
+        "phone": "7797939775",
+        "email": "Silvio.Cornwell@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 51,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 57,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 19568650,
+    "name": "Kary Rayburn",
+    "contactInfo": {
+        "address": "395 Arapahoe Trail, Templestowe",
+        "phone": "1922494293",
+        "email": "Kary.Rayburn@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 49,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 73,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 70,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 88,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 94,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 19611482,
+    "name": "Bidget Ledger",
+    "contactInfo": {
+        "address": "6 Fairfield Place, Gowanbrae",
+        "phone": "5881258357",
+        "email": "Bidget.Ledger@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 2,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 2,
+            "mark": 49,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 1,
+            "mark": 46,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": 59,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 19633815,
+    "name": "Tessie Rheam",
+    "contactInfo": {
+        "address": "59 Anthes Place, Melbourne",
+        "phone": "4369027939",
+        "email": "Tessie.Rheam@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 33,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": 32,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 73,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 98,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 19646834,
+    "name": "Corena Quadri",
+    "contactInfo": {
+        "address": "61238 Petterle Alley, Bonbeach",
+        "phone": "9187650237",
+        "email": "Corena.Quadri@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 68,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 51,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 20225144,
+    "name": "Isacco Semeniuk",
+    "contactInfo": {
+        "address": "3627 Westend Parkway, Melbourne",
+        "phone": "1713556787",
+        "email": "Isacco.Semeniuk@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 61,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 20277720,
+    "name": "Odele Toby",
+    "contactInfo": {
+        "address": "00 Morning Terrace, Caulfield South",
+        "phone": "2875294170",
+        "email": "Odele.Toby@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 68,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 50,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 20648900,
+    "name": "Aleda Whistan",
+    "contactInfo": {
+        "address": "143 Maywood Place, Ormond",
+        "phone": "7513704025",
+        "email": "Aleda.Whistan@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 95,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": 90,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 91,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 20752513,
+    "name": "Aldwin MacGinney",
+    "contactInfo": {
+        "address": "464 Main Trail, Parkville",
+        "phone": "9574813530",
+        "email": "Aldwin.MacGinney@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2020",
+            "semester": 2,
+            "mark": 79,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 1,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 90,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 20776000,
+    "name": "Viviana Brewer",
+    "contactInfo": {
+        "address": "13 Independence Hill, Carlton",
+        "phone": "1917667071",
+        "email": "Viviana.Brewer@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2019",
+            "semester": 2,
+            "mark": 40,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 45,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2019",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 21117462,
+    "name": "Darlene Lyddiard",
+    "contactInfo": {
+        "address": "64 Blaine Court, Mulgrave",
+        "phone": "6018704385",
+        "email": "Darlene.Lyddiard@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 1,
+            "mark": 30,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 40,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 84,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 77,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 21163360,
+    "name": "Kareem Cicchetto",
+    "contactInfo": {
+        "address": "7954 Washington Park, Carlton",
+        "phone": "2434110422",
+        "email": "Kareem.Cicchetto@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 20,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 76,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 21195803,
+    "name": "Ethan Gisburn",
+    "contactInfo": {
+        "address": "8638 Morrow Way, Glen Huntly",
+        "phone": "7015539577",
+        "email": "Ethan.Gisburn@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 70,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 47,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 73,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 21262436,
+    "name": "Flss Cunio",
+    "contactInfo": {
+        "address": "0704 Sunbrook Place, Oakleigh",
+        "phone": "1534116914",
+        "email": "Flss.Cunio@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 88,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 31,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 21375916,
+    "name": "Eugen Welldrake",
+    "contactInfo": {
+        "address": "586 Bashford Pass, Caulfield",
+        "phone": "7603629857",
+        "email": "Eugen.Welldrake@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 79,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 26,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 21472665,
+    "name": "Heloise Tanti",
+    "contactInfo": {
+        "address": "083 Moland Avenue, Glen Huntly",
+        "phone": "8258985726",
+        "email": "Heloise.Tanti@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 82,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 60,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 77,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 21585680,
+    "name": "Elihu Fer",
+    "contactInfo": {
+        "address": "47786 Glacier Hill Trail, Dingley",
+        "phone": "2174117856",
+        "email": "Elihu.Fer@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 57,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 97,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 22329123,
+    "name": "Archie Alessandretti",
+    "contactInfo": {
+        "address": "63526 International Parkway, Parkville",
+        "phone": "1623466353",
+        "email": "Archie.Alessandretti@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 46,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 50,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 76,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 23094083,
+    "name": "Margette Wethered",
+    "contactInfo": {
+        "address": "808 Arizona Avenue, Caulfield",
+        "phone": "4035304181",
+        "email": "Margette.Wethered@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 68,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 87,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 73,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 23545528,
+    "name": "Benny Plunket",
+    "contactInfo": {
+        "address": "116 Emmet Circle, Parkville",
+        "phone": "5847527157",
+        "email": "Benny.Plunket@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2020",
+            "semester": 1,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3176",
+            "year": "2021",
+            "semester": 1,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2020",
+            "semester": 2,
+            "mark": 94,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2020",
+            "semester": 2,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2020",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 23667952,
+    "name": "Jeramey Jervoise",
+    "contactInfo": {
+        "address": "21583 Debs Lane, Glen Huntly",
+        "phone": "1499235790",
+        "email": "Jeramey.Jervoise@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 61,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 81,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 24374498,
+    "name": "Oswald O'Hartagan",
+    "contactInfo": {
+        "address": "8836 Tennessee Street, Dingley",
+        "phone": "9884818204",
+        "email": "Oswald.O'Hartagan@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 50,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 44,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 62,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 24702705,
+    "name": "Mellicent Staggs",
+    "contactInfo": {
+        "address": "511 3rd Point, Carlton",
+        "phone": "1243027702",
+        "email": "Mellicent.Staggs@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 66,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 71,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 24733760,
+    "name": "Shannon Broster",
+    "contactInfo": {
+        "address": "590 David Avenue, Melbourne",
+        "phone": "6903611250",
+        "email": "Shannon.Broster@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 39,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 65,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 24920425,
+    "name": "Mitchell Hilbourne",
+    "contactInfo": {
+        "address": "349 Barnett Junction, Scoresby",
+        "phone": "8579554997",
+        "email": "Mitchell.Hilbourne@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 93,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 94,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 25257376,
+    "name": "Carolee Bonnor",
+    "contactInfo": {
+        "address": "750 Thierer Plaza, Ormond",
+        "phone": "6085401238",
+        "email": "Carolee.Bonnor@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 54,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 80,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 86,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        }
+    ]
+},
+{
+    "_id": 25437072,
+    "name": "Trace Abel",
+    "contactInfo": {
+        "address": "4720 Birchwood Avenue, Caulfield",
+        "phone": "8759489782",
+        "email": "Trace.Abel@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 93,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 41,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 25,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 93,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 25749653,
+    "name": "Rene Kelk",
+    "contactInfo": {
+        "address": "662 Delladonna Park, Parkdale",
+        "phone": "1144968634",
+        "email": "Rene.Kelk@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 40,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 47,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 72,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 25814205,
+    "name": "Ethe Butts",
+    "contactInfo": {
+        "address": "61 Lukken Alley, Mulgrave",
+        "phone": "7727092822",
+        "email": "Ethe.Butts@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 36,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 82,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 92,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 48,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 83,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 25828434,
+    "name": "Cathrin Smullin",
+    "contactInfo": {
+        "address": "9 Carey Center, Ormond",
+        "phone": "6878439661",
+        "email": "Cathrin.Smullin@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2020",
+            "semester": 2,
+            "mark": 44,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 53,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 25852461,
+    "name": "Shalne Chalk",
+    "contactInfo": {
+        "address": "0831 Grasskamp Road, Chelsea",
+        "phone": "9013291167",
+        "email": "Shalne.Chalk@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 1,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2020",
+            "semester": 2,
+            "mark": 86,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 78,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 25861730,
+    "name": "Chicky Lount",
+    "contactInfo": {
+        "address": "15 Badeau Alley, Blackburn South",
+        "phone": "6861335938",
+        "email": "Chicky.Lount@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 73,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 43,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 51,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 30456976,
+    "name": "Wynne Axtonne",
+    "contactInfo": {
+        "address": "93585 Transport Center, Portsea",
+        "phone": "8066569304",
+        "email": "Wynne.Axtonne@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 42,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 95,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 93,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        }
+    ]
+},
+{
+    "_id": 32138456,
+    "name": "Mariel Sheardown",
+    "contactInfo": {
+        "address": "9594 Talisman Street, Hoppers Crossing",
+        "phone": "5115748869",
+        "email": "Mariel.Sheardown@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 59,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 66,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 60,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 91,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 32196074,
+    "name": "Philbert Vayne",
+    "contactInfo": {
+        "address": "3 Michigan Plaza, Delahey",
+        "phone": "9524468596",
+        "email": "Philbert.Vayne@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 37,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 87,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 88,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 38843469,
+    "name": "Jacinta Cordey",
+    "contactInfo": {
+        "address": "55668 Prentice Parkway, Kingsbury",
+        "phone": "7288167659",
+        "email": "Jacinta.Cordey@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 61,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 18,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 41,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 33,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 52,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 38973853,
+    "name": "Uriel Feares",
+    "contactInfo": {
+        "address": "5294 Westport Trail, Warrandyte South",
+        "phone": "4396578426",
+        "email": "Uriel.Feares@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 55,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 45,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 60,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 54,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 40098507,
+    "name": "Cyrus Putten",
+    "contactInfo": {
+        "address": "9 Glacier Hill Junction, Watsonia",
+        "phone": "3664393648",
+        "email": "Cyrus.Putten@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 87,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 91,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 44,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 41833686,
+    "name": "Currie Driutti",
+    "contactInfo": {
+        "address": "2 Merchant Circle, St Kilda West",
+        "phone": "1641257313",
+        "email": "Currie.Driutti@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 23,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5196",
+            "year": "2021",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 1,
+            "mark": 89,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 99,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 42609683,
+    "name": "Cara Waters",
+    "contactInfo": {
+        "address": "69377 Northwestern Alley, Mitcham",
+        "phone": "4096925862",
+        "email": "Cara.Waters@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2020",
+            "semester": 2,
+            "mark": 60,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 67,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 94,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2020",
+            "semester": 2,
+            "mark": 50,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 43089695,
+    "name": "Edith Deerr",
+    "contactInfo": {
+        "address": "964 Bowman Pass, Ripponlea",
+        "phone": "8124711784",
+        "email": "Edith.Deerr@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 31,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 44064793,
+    "name": "Zane Roffe",
+    "contactInfo": {
+        "address": "34 Warbler Court, Ferny Creek",
+        "phone": "6845833867",
+        "email": "Zane.Roffe@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 70,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 44472707,
+    "name": "Perla Broschek",
+    "contactInfo": {
+        "address": "0 Golf View Crossing, Albanvale",
+        "phone": "6858824836",
+        "email": "Perla.Broschek@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 81,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 65,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 90,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 45459746,
+    "name": "Dex Diamant",
+    "contactInfo": {
+        "address": "90 Pearson Street, Doncaster East",
+        "phone": "2842740671",
+        "email": "Dex.Diamant@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 60,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 79,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 81,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 46384609,
+    "name": "Koo Rising",
+    "contactInfo": {
+        "address": "04 Sullivan Circle, Doncaster East",
+        "phone": "9105516782",
+        "email": "Koo.Rising@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 37,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 47,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 48850039,
+    "name": "Winfield Brewis",
+    "contactInfo": {
+        "address": "2452 Browning Place, Seaford",
+        "phone": "3335516029",
+        "email": "Winfield.Brewis@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 77,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 75,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 56,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 23,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 49865866,
+    "name": "Joycelin Jessen",
+    "contactInfo": {
+        "address": "53 Troy Hill, Doveton",
+        "phone": "4764272743",
+        "email": "Joycelin.Jessen@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 43,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 93,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 59,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 78,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 50877922,
+    "name": "Aila Eaves",
+    "contactInfo": {
+        "address": "02806 Roxbury Center, Southbank",
+        "phone": "6053071748",
+        "email": "Aila.Eaves@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 58,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 25,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 89,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 50916046,
+    "name": "Emelen Revell",
+    "contactInfo": {
+        "address": "15 Hazelcrest Park, Mernda",
+        "phone": "8163659713",
+        "email": "Emelen.Revell@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 83,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 45,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 68,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        }
+    ]
+},
+{
+    "_id": 52627453,
+    "name": "Annamaria Verdey",
+    "contactInfo": {
+        "address": "093 Schurz Alley, Parkdale",
+        "phone": "6983541318",
+        "email": "Annamaria.Verdey@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 1,
+            "mark": 41,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 1,
+            "mark": 69,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT3157",
+            "year": "2021",
+            "semester": 2,
+            "mark": 79,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT2094",
+            "year": "2021",
+            "semester": 2,
+            "mark": 59,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 55804738,
+    "name": "Odie Portail",
+    "contactInfo": {
+        "address": "16 Tennyson Way, Newport",
+        "phone": "4192110663",
+        "email": "Odie.Portail@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 97,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        }
+    ]
+},
+{
+    "_id": 59846831,
+    "name": "Linette Ever",
+    "contactInfo": {
+        "address": "594 Sutherland Junction, Dandenong",
+        "phone": "4329654812",
+        "email": "Linette.Ever@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 44,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 79,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 73,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 57,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 60196363,
+    "name": "Minerva Hasloch",
+    "contactInfo": {
+        "address": "44542 Briar Crest Crossing, Blackburn",
+        "phone": "1148597125",
+        "email": "Minerva.Hasloch@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 47,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 81,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 20,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 60489715,
+    "name": "Noel Tacker",
+    "contactInfo": {
+        "address": "80260 Fremont Pass, Rockbank",
+        "phone": "7712268166",
+        "email": "Noel.Tacker@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 86,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 70,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 45,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 66,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 61522682,
+    "name": "Sutton Duddin",
+    "contactInfo": {
+        "address": "5 Esch Way, Warrandyte South",
+        "phone": "8688131943",
+        "email": "Sutton.Duddin@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 56,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 56,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 33,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 62230059,
+    "name": "Malanie Boldero",
+    "contactInfo": {
+        "address": "1561 Buhler Parkway, Keilor East",
+        "phone": "5138622402",
+        "email": "Malanie.Boldero@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 29,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 67,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 69963813,
+    "name": "Xymenes Healeas",
+    "contactInfo": {
+        "address": "30 Manufacturers Terrace, Brighton East",
+        "phone": "2788890334",
+        "email": "Xymenes.Healeas@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 74,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 40,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 49,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 70093158,
+    "name": "Benedick Killingsworth",
+    "contactInfo": {
+        "address": "15046 Meadow Valley Crossing, Mill Park",
+        "phone": "1029341277",
+        "email": "Benedick.Killingsworth@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 96,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 42,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 52,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 90,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 72907001,
+    "name": "Reinald Philipson",
+    "contactInfo": {
+        "address": "1 Paget Court, Lysterfield",
+        "phone": "8044465716",
+        "email": "Reinald.Philipson@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT5145",
+            "year": "2021",
+            "semester": 2,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 68,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 73208778,
+    "name": "Joaquin Kidstone",
+    "contactInfo": {
+        "address": "547 Fairview Point, Richmond",
+        "phone": "6429799472",
+        "email": "Joaquin.Kidstone@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 1,
+            "mark": 28,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9137",
+            "year": "2021",
+            "semester": 2,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 61,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 1,
+            "mark": 56,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 74071448,
+    "name": "Katleen Leckey",
+    "contactInfo": {
+        "address": "48 Goodland Drive, Upfield",
+        "phone": "1509291497",
+        "email": "Katleen.Leckey@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 63,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 80,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 74225922,
+    "name": "Keri Heake",
+    "contactInfo": {
+        "address": "632 Erie Hill, Kilsyth",
+        "phone": "6966094004",
+        "email": "Keri.Heake@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 44,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 58,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 75609179,
+    "name": "Banky Padson",
+    "contactInfo": {
+        "address": "352 Golf View Road, Somerton",
+        "phone": "4748312637",
+        "email": "Banky.Padson@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 72,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 68,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 75827797,
+    "name": "Deanne Perrygo",
+    "contactInfo": {
+        "address": "04502 Ilene Alley, Carrum Downs",
+        "phone": "7586260297",
+        "email": "Deanne.Perrygo@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 62,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 28,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 76995411,
+    "name": "Merola Whewell",
+    "contactInfo": {
+        "address": "93 Nelson Center, Knoxfield",
+        "phone": "2629503644",
+        "email": "Merola.Whewell@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 49,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 97,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 77689807,
+    "name": "Leese Christofle",
+    "contactInfo": {
+        "address": "3 West Lane, Greenvale",
+        "phone": "4913619780",
+        "email": "Leese.Christofle@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 53,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 60,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 77915848,
+    "name": "Cristobal Raffan",
+    "contactInfo": {
+        "address": "5518 Merry Terrace, Box Hill South",
+        "phone": "5653221594",
+        "email": "Cristobal.Raffan@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 85,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 46,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 78223593,
+    "name": "Chelsey Tabart",
+    "contactInfo": {
+        "address": "88 Basil Place, Seddon",
+        "phone": "1614431220",
+        "email": "Chelsey.Tabart@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 46,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 78,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 78798982,
+    "name": "Madison Bouttell",
+    "contactInfo": {
+        "address": "9889 Brentwood Park, Moorabbin Airport",
+        "phone": "8174411616",
+        "email": "Madison.Bouttell@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 64,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 54,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 79980356,
+    "name": "Alvera Terne",
+    "contactInfo": {
+        "address": "7 Clarendon Park, Bennettswood",
+        "phone": "8528718294",
+        "email": "Alvera.Terne@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT1045",
+            "year": "2021",
+            "semester": 2,
+            "mark": 56,
+            "grade": "P"
+        },
+        {
+            "unitcode": "FIT1050",
+            "year": "2021",
+            "semester": 2,
+            "mark": 52,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 84148949,
+    "name": "Camel Doll",
+    "contactInfo": {
+        "address": "4497 Harbort Parkway, Melbourne Airport",
+        "phone": "6135233156",
+        "email": "Camel.Doll@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 70,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 59,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 90237362,
+    "name": "Flor Pickless",
+    "contactInfo": {
+        "address": "9463 Pankratz Pass, Langwarrin",
+        "phone": "3509129124",
+        "email": "Flor.Pickless@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 70,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 96,
+            "grade": "HD"
+        }
+    ]
+},
+{
+    "_id": 90695073,
+    "name": "Artus Antliff",
+    "contactInfo": {
+        "address": "2 Swallow Pass, Carrum",
+        "phone": "2235182901",
+        "email": "Artus.Antliff@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "WH"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 60,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 90769914,
+    "name": "Ulla Paumier",
+    "contactInfo": {
+        "address": "32799 Bultman Center, Brunswick East",
+        "phone": "7734633884",
+        "email": "Ulla.Paumier@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 35,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": null,
+            "grade": "DEF"
+        }
+    ]
+},
+{
+    "_id": 92917195,
+    "name": "Clayson Perfect",
+    "contactInfo": {
+        "address": "997 Prairieview Trail, Dandenong",
+        "phone": "6184562248",
+        "email": "Clayson.Perfect@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 71,
+            "grade": "D"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 76,
+            "grade": "D"
+        }
+    ]
+},
+{
+    "_id": 93316441,
+    "name": "Franny Skaife",
+    "contactInfo": {
+        "address": "75 Muir Point, St Albans",
+        "phone": "6246033424",
+        "email": "Franny.Skaife@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 48,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 26,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 94991034,
+    "name": "Stesha Danilin",
+    "contactInfo": {
+        "address": "9667 Wayridge Road, Albert Park",
+        "phone": "9192504047",
+        "email": "Stesha.Danilin@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 67,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 36,
+            "grade": "N"
+        }
+    ]
+},
+{
+    "_id": 95942499,
+    "name": "Palmer Maddock",
+    "contactInfo": {
+        "address": "26 Vernon Avenue, Bellfield",
+        "phone": "6122960957",
+        "email": "Palmer.Maddock@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 66,
+            "grade": "C"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 68,
+            "grade": "C"
+        }
+    ]
+},
+{
+    "_id": 97084554,
+    "name": "Melisse Athey",
+    "contactInfo": {
+        "address": "56 Merrick Lane, Croydon North",
+        "phone": "3895515693",
+        "email": "Melisse.Athey@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 88,
+            "grade": "HD"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 50,
+            "grade": "P"
+        }
+    ]
+},
+{
+    "_id": 97380575,
+    "name": "Adoree Banner",
+    "contactInfo": {
+        "address": "553 Rockefeller Alley, Ivanhoe East",
+        "phone": "2691747443",
+        "email": "Adoree.Banner@student.monash.edu"
+    },
+    "enrolmentInfo": [
+        {
+            "unitcode": "FIT9132",
+            "year": "2021",
+            "semester": 2,
+            "mark": 42,
+            "grade": "N"
+        },
+        {
+            "unitcode": "FIT9136",
+            "year": "2021",
+            "semester": 2,
+            "mark": 57,
+            "grade": "P"
+        }
+    ]
+}
